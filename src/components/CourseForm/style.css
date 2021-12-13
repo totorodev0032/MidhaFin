@@ -1,0 +1,21 @@
+.form-control {
+  /* background-color: rgb(253, 214, 214) !important; */
+  /* color: rgb(104, 7, 60); */
+  height: 35px !important;
+  width: 243px !important;
+}
+.react-tel-input {
+  /* margin-top: 10px !important; */
+  margin-left: 28px !important;
+}
+
+.flag-dropdown {
+  background-color: white !important;
+}
+
+@media (max-width: 496px) {
+  .react-tel-input {
+    /* margin-top: 10px !important; */
+    margin-left: 28px !important;
+  }
+}
