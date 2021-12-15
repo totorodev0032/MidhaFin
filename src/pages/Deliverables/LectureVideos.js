@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from '@emotion/styled';
-import Toolbar from '../components/ToolBar/Toolbar';
-import Footer from '../components/Footer/Footer';
+import Toolbar from '../../components/ToolBar/Toolbar';
+import Footer from '../../components/Footer/Footer';
 
 const AboutWrapper = styled.div`
   display: flex;

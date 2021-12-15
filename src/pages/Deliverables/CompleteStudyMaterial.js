@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from '@emotion/styled';
-import Toolbar from '../components/ToolBar/Toolbar';
-import Footer from '../components/Footer/Footer';
+import Toolbar from '../../components/ToolBar/Toolbar';
+import Footer from '../../components/Footer/Footer';
 
 const AboutWrapper = styled.div`
   display: flex;
@@ -64,19 +64,28 @@ const AboutContainer = styled.div`
   }
 `;
 
-const MockTest = () => {
+const CompleteStudyMaterial = () => {
   return (
     <>
       <Toolbar />
       <AboutWrapper>
         <AboutArea>
           <AboutContainer>
-            <p className="heading">Mock Tests</p>
+            <p className="heading">Complete Study Material</p>
             <p className="description">
-              We provide 3 comprehensive Mock Tests starting 3 weeks prior to
-              the exam. Every single answer sheet is rigorously evaluated and a
-              quartile analysis is provided for each module within 2 days of
-              conducting each mock test.
+              We provide study material for all the topics of the FRM Part 1 and
+              FRM Part 2 Exams. The study material is based completely on the
+              GARP readings.
+            </p>
+            <p className="description">
+              They are downloadable and printable for your convenience.
+            </p>
+
+            <p className="description">
+              The material has been formatted and structured quite
+              systematically which makes it extremely user-friendly for readers.
+              The material covers the topics in-depth and does not omit anything
+              which is relevant from the point of view of the FRM exam.
             </p>
           </AboutContainer>
         </AboutArea>
@@ -86,4 +95,4 @@ const MockTest = () => {
   );
 };
 
-export default MockTest;
+export default CompleteStudyMaterial;

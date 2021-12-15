@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from '@emotion/styled';
-import { Programmes } from '../data/Programmes';
-import Toolbar from '../components/ToolBar/Toolbar';
+import { Programmes } from '../../data/Programmes';
+import Toolbar from '../../components/ToolBar/Toolbar';
 import { Link } from 'react-router-dom';
 
 const ProgramPage = ({ match }) => {

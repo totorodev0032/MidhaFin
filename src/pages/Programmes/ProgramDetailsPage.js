@@ -1,12 +1,12 @@
 import React from 'react';
-import { Programmes } from '../data/Programmes';
-import FloatingButton from '../components/FloatingButton/FloatingButton';
-import Toolbar from '../components/ToolBar/Toolbar';
-import CourseHero from '../components/CourseHero/CourseHero';
-import CourseAbout from '../components/CourseAbout/CourseAbout';
-import SyllabusSection from '../components/SyllabusSection/SyllabusSection';
-import ContactUs from '../components/ContactUs/ContactUs';
-import Footer from '../components/Footer/Footer';
+import { Programmes } from '../../data/Programmes';
+import FloatingButton from '../../components/FloatingButton/FloatingButton';
+import Toolbar from '../../components/ToolBar/Toolbar';
+import CourseHero from '../../components/CourseHero/CourseHero';
+import CourseAbout from '../../components/CourseAbout/CourseAbout';
+import SyllabusSection from '../../components/SyllabusSection/SyllabusSection';
+import ContactUs from '../../components/ContactUs/ContactUs';
+import Footer from '../../components/Footer/Footer';
 
 const ProgramDetailsPage = ({ match }) => {
   const url = match.url;

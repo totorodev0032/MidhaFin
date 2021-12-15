@@ -16,11 +16,11 @@ import Refund from './pages/Refund/Refund';
 import About from './pages/AboutUs/About';
 import FloatingButton from './components/FloatingButton/FloatingButton';
 import FeaturesUSP from './components/FeaturesUSP';
-import LectureVideos from './pages/LectureVideos';
-import CompleteStudyMaterial from './pages/CompleteStudyMaterial';
-import MockTest from './pages/MockTest';
-import ProgramPage from './pages/ProgramPage';
-import ProgramDetailsPage from './pages/ProgramDetailsPage';
+import LectureVideos from './pages/Deliverables/LectureVideos';
+import CompleteStudyMaterial from './pages/Deliverables/CompleteStudyMaterial';
+import MockTest from './pages/Deliverables/MockTest';
+import ProgramPage from './pages/Programmes/ProgramPage';
+import ProgramDetailsPage from './pages/Programmes/ProgramDetailsPage';
 
 const CourseDataAnalytics = {
   title: 'Data Analytics Course',
