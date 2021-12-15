@@ -256,7 +256,7 @@ const Footer = () => {
               </div>
               <p>© 2021 MidhaPro</p>
               <a
-                href="tel:9801176401"
+                href="tel:9155199555"
                 style={{
                   textDecoration: 'none',
                   color: 'white',
@@ -274,7 +274,7 @@ const Footer = () => {
                     fontSize: '20px',
                   }}
                 />{' '}
-                +91 9801176401
+                +91 9155199555
               </a>
             </LogoBox>
           </FooterRight>

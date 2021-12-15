@@ -5,6 +5,7 @@ import Drawerright from '../Drawer/Drawer';
 import logo from '../../images/prologo.png';
 import { IoIosArrowDown } from 'react-icons/io';
 import { MdCall } from 'react-icons/md';
+import GarpLogo from '../../images/garp.jpg';
 
 const ToolbarLayout = styled.div`
   display: flex;
@@ -34,7 +35,6 @@ const ToolbarWrapper = styled.div`
 
 const LogoWrapper = styled.div`
   display: flex;
-  flex-direction: column;
   height: 100%;
   align-items: center;
   color: black;
@@ -132,6 +132,7 @@ const Toolbar = () => {
             <Link to="/">
               <img src={logo} alt="logo" />
             </Link>
+            <img src={GarpLogo} alt="logo" />
           </LogoWrapper>
           <NavItemWrapper>
             <p
@@ -244,7 +245,7 @@ const Toolbar = () => {
               Contact Us
             </a>
             <a
-              href="tel:9801176401"
+              href="tel:9155199555"
               style={{
                 textDecoration: 'none',
                 color: 'black',
@@ -257,7 +258,7 @@ const Toolbar = () => {
               <MdCall
                 style={{ color: 'green', marginRight: '7px', fontSize: '20px' }}
               />{' '}
-              +91 9801176401
+              +91 9155199555
             </a>
           </NavItemWrapper>
           <MenuWrapper>
