@@ -50,7 +50,7 @@ const FeatureData = [
   {
     title: 'Study Planner',
     icon: <AiOutlineCalendar style={{ fontSize: '35px', color: '#6a1b1a' }} />,
-    link: '',
+    link: '/frm-study-planner',
   },
   {
     title: 'Lecture Videos',
@@ -60,7 +60,7 @@ const FeatureData = [
   {
     title: 'Question Banks',
     icon: <AiOutlineCalendar style={{ fontSize: '35px', color: '#6a1b1a' }} />,
-    link: '',
+    link: '/frm-question-banks',
   },
   {
     title: 'Mock Tests',
@@ -70,7 +70,7 @@ const FeatureData = [
   {
     title: 'Access til you Pass',
     icon: <AiOutlineCalendar style={{ fontSize: '35px', color: '#6a1b1a' }} />,
-    link: '',
+    link: '/access-till-you-pass',
   },
   {
     title: 'Complete Study Materials',
@@ -80,12 +80,12 @@ const FeatureData = [
   {
     title: 'Doubt Clearing Forum',
     icon: <AiOutlineCalendar style={{ fontSize: '35px', color: '#6a1b1a' }} />,
-    link: '',
+    link: '/frm-doubt-clearing-forum',
   },
   {
     title: 'Past Sample Questions',
     icon: <AiOutlineCalendar style={{ fontSize: '35px', color: '#6a1b1a' }} />,
-    link: '',
+    link: '/past-frm-sample-paper-questions',
   },
 ];
 
@@ -98,6 +98,7 @@ const FeaturesUSP = () => {
             <Link
               to={data.link}
               style={{ textDecoration: 'none', color: '#6a1b1a' }}
+              onClick={() => window.scroll(0, 0)}
             >
               <BoxContainer>
                 <CircleBox>{data.icon}</CircleBox>

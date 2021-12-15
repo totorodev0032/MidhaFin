@@ -21,6 +21,11 @@ import CompleteStudyMaterial from './pages/Deliverables/CompleteStudyMaterial';
 import MockTest from './pages/Deliverables/MockTest';
 import ProgramPage from './pages/Programmes/ProgramPage';
 import ProgramDetailsPage from './pages/Programmes/ProgramDetailsPage';
+import QuestionBanks from './pages/Deliverables/QuestionBanks';
+import PastSample from './pages/Deliverables/PastSample';
+import Doubt from './pages/Deliverables/Doubt';
+import AccessTillPass from './pages/Deliverables/Access';
+import StudyPlanner from './pages/Deliverables/StudyPlanner';
 
 const CourseDataAnalytics = {
   title: 'Data Analytics Course',
@@ -183,6 +188,13 @@ function App() {
         path="/complete-frm-study-material"
         component={CompleteStudyMaterial}
       />
+
+      <Route path="/frm-question-banks" component={QuestionBanks} />
+      <Route path="/past-frm-sample-paper-questions" component={PastSample} />
+      <Route path="/frm-doubt-clearing-forum" component={Doubt} />
+      <Route path="/access-till-you-pass" component={AccessTillPass} />
+      <Route path="/frm-study-planner" component={StudyPlanner} />
+
       <Route path="/frm-mock-tests" component={MockTest} />
       <Route path="/blogs" component={BlogPage} />
       <Route path="/terms-and-conditions" component={Term} />
