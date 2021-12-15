@@ -171,7 +171,7 @@ const Footer = () => {
             <FooterBox>
               <p className="heading">Company</p>
               <Link
-                to="about-us"
+                to="/about-us"
                 onClick={() => window.scroll(0, 0)}
                 className="links"
               >
@@ -183,20 +183,20 @@ const Footer = () => {
               <p className="heading">Help and Support</p>
               <Link
                 className="links"
-                to="terms-and-conditions"
+                to="/terms-and-conditions"
                 onClick={() => window.scroll(0, 0)}
               >
                 <p>Terms and Condition</p>
               </Link>
               <Link
-                to="privacy-policy"
+                to="/privacy-policy"
                 className="links"
                 onClick={() => window.scroll(0, 0)}
               >
                 <p>Privacy Policy</p>
               </Link>
               <Link
-                to="refund-and-cancellation-policy"
+                to="/refund-and-cancellation-policy"
                 className="links"
                 onClick={() => window.scroll(0, 0)}
               >

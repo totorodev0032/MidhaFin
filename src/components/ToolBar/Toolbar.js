@@ -132,7 +132,6 @@ const Toolbar = () => {
             <Link to="/">
               <img src={logo} alt="logo" />
             </Link>
-            <p>Learn Programming with Projects</p>
           </LogoWrapper>
           <NavItemWrapper>
             <p
@@ -154,7 +153,7 @@ const Toolbar = () => {
                   alignItems: 'center',
                 }}
               >
-                <span>Courses</span>{' '}
+                <span>Programmes</span>{' '}
                 <IoIosArrowDown
                   style={{
                     color: 'maroon',
@@ -178,7 +177,7 @@ const Toolbar = () => {
                 }}
               >
                 <Link
-                  to="/data-analytics"
+                  to="programmes/frm"
                   style={{
                     textDecoration: 'none',
                     color: 'maroon',
@@ -186,10 +185,10 @@ const Toolbar = () => {
                     borderBottom: '1px solid #cdcdcd',
                   }}
                 >
-                  Data Analytics Course
+                  FRM
                 </Link>
                 <Link
-                  to="/machine-learning"
+                  to="programmes/prm"
                   style={{
                     textDecoration: 'none',
                     color: 'maroon',
@@ -197,10 +196,10 @@ const Toolbar = () => {
                     borderBottom: '1px solid #cdcdcd',
                   }}
                 >
-                  Machine Learning Course
+                  PRM
                 </Link>
                 <Link
-                  to="/python-bootcamp"
+                  to="programmes/cfa"
                   style={{
                     textDecoration: 'none',
                     color: 'maroon',
@@ -208,23 +207,11 @@ const Toolbar = () => {
                     borderBottom: '1px solid #cdcdcd',
                   }}
                 >
-                  Python Bootcamp 101
-                </Link>
-
-                <Link
-                  to="/java-bootcamp"
-                  style={{
-                    textDecoration: 'none',
-                    color: 'maroon',
-                    fontSize: '16px',
-                    borderBottom: '1px solid #cdcdcd',
-                  }}
-                >
-                  Core Java Bootcamp
+                  CFA
                 </Link>
 
                 <Link
-                  to="/c++-data-structures-bootcamp"
+                  to="programmes/mfschool"
                   style={{
                     textDecoration: 'none',
                     color: 'maroon',
@@ -232,18 +219,7 @@ const Toolbar = () => {
                     borderBottom: '1px solid #cdcdcd',
                   }}
                 >
-                  C++ and Data Structures
-                </Link>
-
-                <Link
-                  to="/machine-learning-julia"
-                  style={{
-                    textDecoration: 'none',
-                    color: 'maroon',
-                    fontSize: '16px',
-                  }}
-                >
-                  Machine Learning with Julia
+                  MFSCHOOL
                 </Link>
               </div>
             </p>

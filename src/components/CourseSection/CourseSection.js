@@ -199,7 +199,7 @@ const CourseSection = () => {
                   <p className="courseHeading"> {program.title} </p>
                   <p className="text">{program.description}</p>
                   <Link
-                    to={`/${program.id}`}
+                    to={`/programmes/${program.id}`}
                     style={{ textDecoration: 'none' }}
                     onClick={() => window.scroll(0, 0)}
                   >

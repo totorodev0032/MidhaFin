@@ -183,20 +183,22 @@ function App() {
         <FAQSection />
         <Footer />
       </Route>
-      <Route path="/:id" component={ProgramPage} exact />
 
-      <Route path="/:id/:id" component={ProgramDetailsPage} />
-      <Route path="/blogs" component={BlogPage} />
-      <Route path="/terms-and-conditions" component={Term} />
-      <Route path="/privacy-policy" component={Privacy} />
-      <Route path="/refund-and-cancellation-policy" component={Refund} />
-      <Route path="/about-us" component={About} />
       <Route path="/frm-lecture-videos" component={LectureVideos} />
       <Route
         path="/complete-frm-study-material"
         component={CompleteStudyMaterial}
       />
       <Route path="/frm-mock-tests" component={MockTest} />
+      <Route path="/blogs" component={BlogPage} />
+      <Route path="/terms-and-conditions" component={Term} />
+      <Route path="/privacy-policy" component={Privacy} />
+      <Route path="/refund-and-cancellation-policy" component={Refund} />
+      <Route path="/about-us" component={About} />
+
+      <Route path="/programmes/:id" component={ProgramPage} exact />
+
+      <Route path="/programmes/:id/:id" component={ProgramDetailsPage} />
     </Router>
   );
 }

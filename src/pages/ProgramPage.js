@@ -9,18 +9,20 @@ const ProgramPage = ({ match }) => {
     (ProgramList) => ProgramList.id === match.params.id
   );
 
-  const url = match.params.id;
   return (
     <>
       <Toolbar />
       <ProgramPageWrapper>
         <ProgramPageContainer>
           {ProgramList.ProgramList.map((p) => (
-            <Link to={`/${ProgramList.id}/${p.id}`} className="link">
+            <Link to={`/programmes/${ProgramList.id}/${p.id}`} className="link">
               <ProgramBox>
                 {' '}
                 <ProgramUp>
-                  <Link to={`/${ProgramList.id}/${p.id}`} className="link">
+                  <Link
+                    to={`/programmes/${ProgramList.id}/${p.id}`}
+                    className="link"
+                  >
                     <p> {p.title} </p>{' '}
                   </Link>
                 </ProgramUp>

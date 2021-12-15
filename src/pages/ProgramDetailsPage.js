@@ -11,7 +11,7 @@ import Footer from '../components/Footer/Footer';
 const ProgramDetailsPage = ({ match }) => {
   const url = match.url;
   console.log(url);
-  const separator = url.split('/')[1];
+  const separator = url.split('/')[2];
   console.log(separator);
 
   const ProgramArray = Programmes.find((Program) => Program.id === separator);
