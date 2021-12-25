@@ -73,8 +73,23 @@ const QuestionBanks = () => {
           <AboutContainer>
             <p className="heading">Questions Banks</p>
             <p className="description">
-              Collection of over 3000 questions from various sources for the FRM
-              Part 1 and FRM Part 2 Exam
+              Our team has prepared thousands of FRM/CFA/PRM practice questions
+              which would allow students to test their knowledge. These
+              questions are updated based on the current FRM/CFA/PRM trends, and
+              are a good mixture of easy, medium and difficult questions. An
+              easy to comprehend solution for every single question is provided
+              along with the questions.
+            </p>
+
+            <p className="description">
+              Our questions are mapped with the FRM/CFA/PRM exam’s latest
+              curriculum.
+            </p>
+
+            <p className="description">
+              Further, the organization structure of the FRM/CFA/PRM questions
+              is extremely user-friendly. The questions are sequenced according
+              to our student study plan.{' '}
             </p>
           </AboutContainer>
         </AboutArea>

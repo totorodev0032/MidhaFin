@@ -71,7 +71,7 @@ const LectureVideos = () => {
       <AboutWrapper>
         <AboutArea>
           <AboutContainer>
-            <p className="heading">FRM Lecture Videos</p>
+            <p className="heading">Lecture Videos</p>
             <p className="description">
               We currently offer around 150 hours of lecture videos for the FRM
               Part 1 curriculum and around 140 hours for the FRM Part 2

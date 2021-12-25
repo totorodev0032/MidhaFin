@@ -73,9 +73,41 @@ const Doubt = () => {
           <AboutContainer>
             <p className="heading">Doubt Clearning Forum</p>
             <p className="description">
-              We have an active doubt solving Forum. Every single doubt which is
-              relevant to the curriculum will be solved. Any questions can be
-              asked from any other source as well.
+              “Curiosity is the mother of invention”
+            </p>
+            <p className="description">
+              We at Midhafin strongly believe that conceptual clarity is the key
+              to doing well in the FRM/CFA/PRM exam. We also greatly emphasise
+              the importance of developing the relevant knowledge related to the
+              FRM/CFA/PRM course. Thus, in line with our students-first
+              approach, we take FRM/CFA/PRM doubts very seriously.
+            </p>
+            <p className="description">
+              We have an active and extremely user-friendly FRM/CFA/PRM doubt
+              solving Forum. Every single doubt which is relevant to the
+              curriculum will be solved there. Further, we do not limit
+              ourselves to our own FRM/CFA/PRM study material, doubts from any
+              other source (provided it is relevant to the exam) would be
+              solved.
+            </p>
+            <p className="description">
+              We have dedicated Q&A sections against each chapter on the Forum
+              where students can post their FRM/CFA/PRM doubts by posting a
+              picture or typing it.
+            </p>
+
+            <p className="description">
+              Even when students want to revisit the doubts and the solutions,
+              they can do so by simply typing in the keyword, or going to the
+              corresponding chapter, and checking it out. Further, students can
+              find all FRM/CFA/PRM questions asked by the other students in that
+              section along with their solution indexed in a very systematic
+              manner.
+            </p>
+
+            <p className="description">
+              Also, students can interact with other FRM/CFA/PRM candidates in
+              the forum and give/receive useful insights.
             </p>
           </AboutContainer>
         </AboutArea>

@@ -73,20 +73,25 @@ const CompleteStudyMaterial = () => {
           <AboutContainer>
             <p className="heading">Complete Study Material</p>
             <p className="description">
-              We provide study material for all the topics of the FRM Part 1 and
-              FRM Part 2 Exams. The study material is based completely on the
-              GARP readings.
+              Equipping our students with the right tools to clear the
+              FRM/CFA/PRM exams is key for us. We emphasize a lot on the quality
+              and relevance of our FRM/CFA/PRM study material and keep updating
+              it based on any change in the FRM/CFA/PRM curriculum. Our study
+              materials include-
             </p>
-            <p className="description">
-              They are downloadable and printable for your convenience.
-            </p>
-
-            <p className="description">
-              The material has been formatted and structured quite
-              systematically which makes it extremely user-friendly for readers.
-              The material covers the topics in-depth and does not omit anything
-              which is relevant from the point of view of the FRM exam.
-            </p>
+            <ol style={{ marginLeft: '3%' }}>
+              <li>High quality FRM/CFA/PRM video lectures.</li>
+              <li>Downloadable FRM/CFA/PRM notes on every topic.</li>
+              <li>
+                Question Bank with over thousand high quality FRM/CFA/PRM
+                questions.
+              </li>
+              <li>
+                Detailed Notes with a focus on active recall (Coming Soon){' '}
+              </li>
+              <li>Section wise FRM/CFA/PRM mock tests </li>
+              <li>Full length FRM/CFA/PRM mock papers </li>
+            </ol>
           </AboutContainer>
         </AboutArea>
       </AboutWrapper>

@@ -73,24 +73,31 @@ const StudyPlanner = () => {
           <AboutContainer>
             <p className="heading">Study Planner</p>
             <p className="description">
-              According to Micky – “It’s not a wise strategy to prepare for the
-              exam on a module by module basis. There are some concepts which
-              are used in an earlier topic but discussed in detail in a later
-              topic in another module. For example – Beta is introduced in CAPM
-              in the Foundations of Risk Management Module, but the quantitative
-              aspect of beta is discussed in Linear Regression in the
-              Quantitative Methods Module. Hence, the sequence of topics to
-              prepare for the FRM Part 1 and Part 2 exams becomes very
-              important.”
+              We at Midhafin are a strong proponent of smart work. Many FRM, CFA
+              and PRM students, whom we have taught over the years, have had to
+              juggle their exam preparations with either job or college, which
+              inevitably brought time management and exam strategy to the
+              forefront of their FRM/CFA/PRM preparation.
             </p>
 
             <p className="description">
-              The study plan has been structured after very careful analysis,
-              and the topics have been sequenced in such a way so as to
-              systematically link one topic after the other. Also, related
-              theory parts have been bundled together and unrelated theory
-              portions have been scattered in the timeline so as to get a good
-              blend of theoretical and numerical based topics.
+              After years of successfully guiding students in their FRM/CFA/PRM
+              study planning, our team has not only been able to identify
+              certain approaches to the FRM/CFA/PRM preparation, but have also
+              learnt to customize the FRM/CFA/PRM study plans for individual
+              students, based on their time commitments and goals.
+            </p>
+
+            <p className="description">
+              The relationship between our instructors and our students is not
+              just that of FRM/CFA/PRM instruction and teaching but also of
+              mentorship. When a FRM/CFA/PRM student joins, we have a session
+              with him or her, wherein, our instructors understand the student’s
+              goals and the amount of time they have to prepare for the
+              FRM/CFA/PRM exam. Based on the student’s prior knowledge, his or
+              her strengths & weaknesses and the amount of time they can commit
+              every week, we prepare a customized FRM/CFA/PRM study plan for the
+              student.{' '}
             </p>
           </AboutContainer>
         </AboutArea>

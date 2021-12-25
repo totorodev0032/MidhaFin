@@ -79,9 +79,15 @@ const AccessTillPass = () => {
 
             <p className="description">
               The best part is that the candidate will always have access to the
-              updated material and resources. The access will not be limited to
-              the resources that the candidate was provided during the time of
-              enrolment.
+              updated FRM/CFA/PRM material and resources. The access will not be
+              limited to the FRM/CFA/PRM resources that the candidate was
+              provided during the time of enrolment.
+            </p>
+
+            <p className="description">
+              We care about our FRM/CFA/PRM students and we will go out of our
+              way to help them in their journey towards clearing the FRM/CFA/PRM
+              exams and taking a leap in their career!
             </p>
           </AboutContainer>
         </AboutArea>

@@ -73,10 +73,23 @@ const MockTest = () => {
           <AboutContainer>
             <p className="heading">Mock Tests</p>
             <p className="description">
-              We provide 3 comprehensive Mock Tests starting 3 weeks prior to
-              the exam. Every single answer sheet is rigorously evaluated and a
-              quartile analysis is provided for each module within 2 days of
-              conducting each mock test.
+              Our philosophy involves learning through application. Mock tests,
+              both sectional and full length, are important components of the
+              FRM/CFA/PRM study process at Midhafin.
+            </p>
+
+            <p className="description">
+              During the FRM/CFA/PRM preparations, we conduct frequent sectional
+              mock papers which ensures that any new information acquired by the
+              student is adequately tested as the FRM/CFA/PRM course progresses.{' '}
+            </p>
+
+            <p className="description">
+              Starting three weeks before the FRM/CFA/PRM exam, we conduct
+              weekly full length mock exams which are based on the pattern seen
+              in actual previous FRM/CFA/PRM exams. Further, we also provide
+              quartiles for our students to help them understand their strengths
+              and weaknesses in comparison to other FRM/CFA/PRM students.
             </p>
           </AboutContainer>
         </AboutArea>

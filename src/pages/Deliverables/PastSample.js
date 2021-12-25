@@ -73,10 +73,17 @@ const PastSample = () => {
           <AboutContainer>
             <p className="heading">Past Sample Paper Questions</p>
             <p className="description">
-              We have a collection of past sample paper questions from 2005 to
-              the current year. They have been organized module wise for the
-              candidate’s convenience. They should be solved as per the strategy
-              section provided in the study planner.
+              We at Midhafin believe that understanding the FRM/CFA/PRM exam is
+              as important as understanding the study material. We encourage our
+              students to solve the previous FRM/CFA/PRM exam sample papers to
+              not just test their understanding of the various concepts, but
+              also to get a better understanding of the pattern of the
+              FRM/CFA/PRM questions. Especially when students do not have a lot
+              of time to study, due to various time commitments, efficiency
+              becomes key in the FRM/CFA/PRM preparation. This involves
+              practising the most relevant type of FRM/CFA/PRM questions and
+              focusing on high yield material that is testable in the
+              FRM/CFA/PRM exam.
             </p>
           </AboutContainer>
         </AboutArea>
