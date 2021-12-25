@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import styled from '@emotion/styled';
 import { Link } from 'react-router-dom';
 import Drawerright from '../Drawer/Drawer';
-import logo from '../../images/prologo.png';
+import logo from '../../images/MidhaFinLogo.png';
 import { IoIosArrowDown } from 'react-icons/io';
 import { MdCall } from 'react-icons/md';
 import GarpLogo from '../../images/garp.jpg';
@@ -132,7 +132,9 @@ const Toolbar = () => {
             <Link to="/">
               <img src={logo} alt="logo" />
             </Link>
-            <img src={GarpLogo} alt="logo" />
+            <a href="https://www.garp.org/">
+              <img src={GarpLogo} alt="logo" />
+            </a>
           </LogoWrapper>
           <NavItemWrapper>
             <p
@@ -154,7 +156,7 @@ const Toolbar = () => {
                   alignItems: 'center',
                 }}
               >
-                <span>Programmes</span>{' '}
+                <span>Programs</span>{' '}
                 <IoIosArrowDown
                   style={{
                     color: 'maroon',

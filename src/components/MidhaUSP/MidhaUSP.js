@@ -99,14 +99,15 @@ const FeatureCard = styled.div`
   margin-top: 25px;
   margin-bottom: 20px;
   align-items: center;
-  border: 1px solid #6a1b1a;
-  border-radius: 37px;
+  box-shadow: 0px 4px 4px 0px #ccccd3;
+  border: 2px solid #ffffff;
+  ${'' /* border-radius: 37px; */}
   padding: 30px 20px 20px 20px;
   transition: box-shadow 0.2s;
   margin-right: 28px;
 
   &:hover {
-    box-shadow: -1px 0px 80px -68px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 6px 6px 0px #ccccd3;
     transition: box-shadow 0.4s;
   }
 

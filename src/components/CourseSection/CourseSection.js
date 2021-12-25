@@ -96,15 +96,14 @@ const CourseCard = styled.div`
   width: 430px;
   text-align: center;
   ${'' /* box-shadow: 0px 10px 99px #4c4a6e26; */}
-  border-radius: 10px;
+  ${'' /* border-radius: 10px; */}
+ box-shadow: 1px 5px 4px 1px #ccccd3;
+  border: 5px solid #ffffff;
   margin-top: 25px;
   margin-left: 50px;
-  border-radius: 15px;
+  ${'' /* border-radius: 15px; */}
   height: auto;
-  border: 1.5px solid maroon;
-  &:hover {
-    box-shadow: 3px 3px 10px #ebebeb, -3px -3px 10px #ffffff;
-  }
+  ${'' /* border: 1.5px solid maroon; */}
 
   @media (max-width: 496px) {
     margin-left: 0;
