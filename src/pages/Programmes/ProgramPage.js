@@ -14,38 +14,119 @@ const ProgramPage = ({ match }) => {
       <Toolbar />
       <ProgramPageWrapper>
         <ProgramPageContainer>
-          {ProgramList.ProgramList.map((p) =>
-            p.category === 1 ? (
-              <>
-                <ProgramBox>
-                  {' '}
-                  <ProgramUp>
-                    <Link
-                      to={`/programmes/${ProgramList.id}/${p.id}`}
-                      className="link"
-                    >
-                      <p> {p.title} </p>{' '}
-                    </Link>
-                  </ProgramUp>
-                  <ProgramDown>
+          <h3> {ProgramList.title} Part I </h3>
+          <CategoryContainer>
+            {ProgramList.ProgramList.map((p) =>
+              p.category === 1 ? (
+                <>
+                  <ProgramBox>
                     {' '}
-                    <p> {p.Meta} </p>
-                    <p className="price">
+                    <ProgramUp>
+                      <Link
+                        to={`/programmes/${ProgramList.id}/${p.id}`}
+                        className="link"
+                      >
+                        <p> {p.title} </p>{' '}
+                      </Link>
+                    </ProgramUp>
+                    <ProgramDown>
                       {' '}
-                      Rs. {p.priceR} / USD {p.priceU}{' '}
-                    </p>
-                    <Link
-                      to={`/programmes/${ProgramList.id}/${p.id}`}
-                      className="link"
-                    >
-                      <ButtonPrimary>View Details</ButtonPrimary>
-                    </Link>
-                  </ProgramDown>
-                </ProgramBox>
-              </>
-            ) : null
-          )}
+                      <p> {p.Meta} </p>
+                      <p className="price">
+                        {' '}
+                        Rs. {p.priceR} / USD {p.priceU}{' '}
+                      </p>
+                      <Link
+                        to={`/programmes/${ProgramList.id}/${p.id}`}
+                        className="link"
+                      >
+                        <ButtonPrimary>View Details</ButtonPrimary>
+                      </Link>
+                    </ProgramDown>
+                  </ProgramBox>
+                </>
+              ) : null
+            )}
+          </CategoryContainer>
         </ProgramPageContainer>
+
+        {ProgramList.parts > 1 ? (
+          <ProgramPageContainer>
+            <h3> {ProgramList.title} Part II </h3>
+            <CategoryContainer>
+              {ProgramList.ProgramList.map((p) =>
+                p.category === 2 ? (
+                  <>
+                    <ProgramBox>
+                      {' '}
+                      <ProgramUp>
+                        <Link
+                          to={`/programmes/${ProgramList.id}/${p.id}`}
+                          className="link"
+                        >
+                          <p> {p.title} </p>{' '}
+                        </Link>
+                      </ProgramUp>
+                      <ProgramDown>
+                        {' '}
+                        <p> {p.Meta} </p>
+                        <p className="price">
+                          {' '}
+                          Rs. {p.priceR} / USD {p.priceU}{' '}
+                        </p>
+                        <Link
+                          to={`/programmes/${ProgramList.id}/${p.id}`}
+                          className="link"
+                        >
+                          <ButtonPrimary>View Details</ButtonPrimary>
+                        </Link>
+                      </ProgramDown>
+                    </ProgramBox>
+                  </>
+                ) : null
+              )}
+            </CategoryContainer>
+          </ProgramPageContainer>
+        ) : null}
+
+        {ProgramList.parts > 2 ? (
+          <ProgramPageContainer>
+            <h3> {ProgramList.title} Part III </h3>
+            <CategoryContainer>
+              {ProgramList.ProgramList.map((p) =>
+                p.category === 2 ? (
+                  <>
+                    <ProgramBox>
+                      {' '}
+                      <ProgramUp>
+                        <Link
+                          to={`/programmes/${ProgramList.id}/${p.id}`}
+                          className="link"
+                        >
+                          <p> {p.title} </p>{' '}
+                        </Link>
+                      </ProgramUp>
+                      <ProgramDown>
+                        {' '}
+                        <p> {p.Meta} </p>
+                        <p className="price">
+                          {' '}
+                          Rs. {p.priceR} / USD {p.priceU}{' '}
+                        </p>
+                        <Link
+                          to={`/programmes/${ProgramList.id}/${p.id}`}
+                          className="link"
+                        >
+                          <ButtonPrimary>View Details</ButtonPrimary>
+                        </Link>
+                      </ProgramDown>
+                    </ProgramBox>
+                  </>
+                ) : null
+              )}
+            </CategoryContainer>
+          </ProgramPageContainer>
+        ) : null}
       </ProgramPageWrapper>
     </>
   );
@@ -55,29 +136,46 @@ export default ProgramPage;
 
 const ProgramPageWrapper = styled.div`
   display: flex;
+  flex-direction: column;
   width: 100%;
   height: auto;
   justify-content: center;
   align-items: center;
-  margin-top: 5%;
+  margin-bottom: 5%;
 `;
 
 const ProgramPageContainer = styled.div`
   display: flex;
-  width: 90%;
+  width: 80%;
   height: auto;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin-bottom: 10%;
+  flex-direction: column;
+  ${'' /* align-items: center; */}
+  margin-top: 5%;
 
   .link {
     text-decoration: none;
     color: #000000;
   }
 
+  h3 {
+    ${'' /* margin-left: 10%; */}
+  }
+
   @media (max-width: 496px) {
     justify-content: center;
     align-items: center;
+  }
+`;
+
+const CategoryContainer = styled.div`
+  display: flex;
+  width: 100%;
+  height: auto;
+  flex-wrap: wrap;
+  ${'' /* justify-content: center; */}
+
+  @media(max-width:496px) {
+    justify-content: center;
   }
 `;
 
@@ -88,11 +186,11 @@ const ProgramBox = styled.div`
   height: 290px;
   ${'' /* border: 1px solid #6a1b1a; */}
   margin-top: 25px;
-  margin-left: 25px;
+  margin-right: 25px;
   box-shadow: 0px 4px 4px 0px #ccccd3;
 
   @media (max-width: 496px) {
-    margin-left: 0;
+    margin-right: 0;
   }
 `;
 

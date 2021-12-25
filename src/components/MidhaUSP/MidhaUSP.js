@@ -171,7 +171,7 @@ const FeatureCard = styled.div`
 
   @media screen and (max-width: 1280px) {
     width: 250px;
-    height: 380px;
+    ${'' /* height: 380px; */}
     margin-right: 15px;
 
     .heading {

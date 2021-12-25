@@ -26,6 +26,7 @@ const FeatureContainer = styled.div`
   align-items: center;
   flex-wrap: wrap;
   padding: 30px 0 30px 0;
+  justify-content: center;
 `;
 
 const BoxContainer = styled.div`
