@@ -92,7 +92,8 @@ const CourseCard = styled.div`
   ${'' /* box-shadow: 0px 10px 99px #4c4a6e26; */}
   ${'' /* border-radius: 10px; */}
  box-shadow: 1px 5px 4px 1px #ccccd3;
-  border: 5px solid #ffffff;
+  ${'' /* border: 5px solid #ffffff; */}
+  border-top: 5px solid #d6a468;
   margin-top: 25px;
   margin-left: 50px;
   ${'' /* border-radius: 15px; */}

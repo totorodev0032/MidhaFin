@@ -100,7 +100,9 @@ const FeatureCard = styled.div`
   margin-bottom: 20px;
   align-items: center;
   box-shadow: 0px 4px 4px 0px #ccccd3;
-  border: 2px solid #ffffff;
+  border-top: 5px solid #d6a468;
+  ${'' /* border: 2px solid #ffffff; */}
+
   ${'' /* border-radius: 37px; */}
   padding: 30px 20px 20px 20px;
   transition: box-shadow 0.2s;
