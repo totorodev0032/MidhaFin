@@ -25,13 +25,12 @@ const FeatureContainer = styled.div`
   height: auto;
   align-items: center;
   flex-wrap: wrap;
-  justify-content: space-between;
   padding: 30px 0 30px 0;
 `;
 
 const BoxContainer = styled.div`
   display: flex;
-  width: 300px;
+  width: 270px;
   height: 90px;
   align-items: center;
   cursor: pointer;
@@ -41,6 +40,10 @@ const BoxContainer = styled.div`
     margin-left: 20px;
     color: #6a1b1a;
     font-weight: 500;
+  }
+
+  @media (max-width: 496px) {
+    margin-right: 0;
   }
 `;
 
