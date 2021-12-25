@@ -2,6 +2,14 @@ import React from 'react';
 import styled from '@emotion/styled';
 import { AiOutlineCalendar } from 'react-icons/ai';
 import { Link } from 'react-router-dom';
+import AccessTillYouPass from '../images/accesstillyoupass.png';
+import CompleteStudy from '../images/completestudy.png';
+import Doubt from '../images/doubt.png';
+import Lecture from '../images/lecture.png';
+import Mock from '../images/mocktest.png';
+import QuestionBank from '../images/questionbank.png';
+import Sample from '../images/sample.png';
+import StudyPlanner from '../images/studyplanner.png';
 
 const FeatureWrapper = styled.div`
   display: flex;
@@ -41,50 +49,54 @@ const CircleBox = styled.div`
   height: 50px;
   width: 50px;
   border-radius: 50%;
-  border: 1px solid #6a1b1a;
+  ${'' /* border: 1px solid #6a1b1a; */}
   justify-content: center;
   align-items: center;
+
+  img {
+    width: 100%;
+  }
 `;
 
 const FeatureData = [
   {
     title: 'Study Planner',
-    icon: <AiOutlineCalendar style={{ fontSize: '35px', color: '#6a1b1a' }} />,
+    icon: StudyPlanner,
     link: '/frm-study-planner',
   },
   {
     title: 'Lecture Videos',
-    icon: <AiOutlineCalendar style={{ fontSize: '35px', color: '#6a1b1a' }} />,
+    icon: Lecture,
     link: '/frm-lecture-videos',
   },
   {
     title: 'Question Banks',
-    icon: <AiOutlineCalendar style={{ fontSize: '35px', color: '#6a1b1a' }} />,
+    icon: QuestionBank,
     link: '/frm-question-banks',
   },
   {
     title: 'Mock Tests',
-    icon: <AiOutlineCalendar style={{ fontSize: '35px', color: '#6a1b1a' }} />,
+    icon: Mock,
     link: '/frm-mock-tests',
   },
   {
     title: 'Access til you Pass',
-    icon: <AiOutlineCalendar style={{ fontSize: '35px', color: '#6a1b1a' }} />,
+    icon: AccessTillYouPass,
     link: '/access-till-you-pass',
   },
   {
     title: 'Complete Study Materials',
-    icon: <AiOutlineCalendar style={{ fontSize: '35px', color: '#6a1b1a' }} />,
+    icon: CompleteStudy,
     link: '/complete-frm-study-material',
   },
   {
     title: 'Doubt Clearing Forum',
-    icon: <AiOutlineCalendar style={{ fontSize: '35px', color: '#6a1b1a' }} />,
+    icon: Doubt,
     link: '/frm-doubt-clearing-forum',
   },
   {
     title: 'Past Sample Questions',
-    icon: <AiOutlineCalendar style={{ fontSize: '35px', color: '#6a1b1a' }} />,
+    icon: Sample,
     link: '/past-frm-sample-paper-questions',
   },
 ];
@@ -101,7 +113,9 @@ const FeaturesUSP = () => {
               onClick={() => window.scroll(0, 0)}
             >
               <BoxContainer>
-                <CircleBox>{data.icon}</CircleBox>
+                <CircleBox>
+                  <img src={data.icon} alt="icon" />
+                </CircleBox>
                 <p>{data.title}</p>
               </BoxContainer>
             </Link>

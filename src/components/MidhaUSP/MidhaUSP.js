@@ -95,7 +95,7 @@ const FeatureCard = styled.div`
   display: flex;
   flex-direction: column;
   width: 280px;
-  height: 450px;
+  height: 550px;
   margin-top: 25px;
   margin-bottom: 20px;
   align-items: center;
@@ -212,10 +212,13 @@ const MidhaUSP = () => {
         <MidhaUSPWrapper>
           <MidhaUSPHeader>
             <p className="heading">
-              Midhafin focuses on Personalized Learning, Expertise and Employability.
+              Midhafin focuses on Personalized Learning, Expertise and
+              Employability.
             </p>
             <p className="description">
-              In finance, desired skills are rare but not jobs! Become employable by pursuing the most reputed and admired courses in the industry, under the expert guidance of Midhafin.
+              In finance, desired skills are rare but not jobs! Become
+              employable by pursuing the most reputed and admired courses in the
+              industry, under the expert guidance of Midhafin.
             </p>
           </MidhaUSPHeader>
           <FeatureContainer>
@@ -223,12 +226,13 @@ const MidhaUSP = () => {
               <div>
                 <img src={CertiLogo} alt="certi logo" />
               </div>
-              <p className="heading1">Certification</p>
+              <p className="heading1">Industry Experienced Faculty</p>
               <p className="description">
-                International Corporate Certifications from companies like
-                Microsoft to make your resume attractive. Why write about a
-                certificate in python when you can write about a Microsoft
-                Certificate in Python!
+                Our faculty is extremely well trained and have real industry
+                experience. They have taught hundreds of students and have
+                prepared thousands of questions over the years. Quality of our
+                faculty is something that we take great pride in and that we are
+                often complimented upon by our students.
               </p>
             </FeatureCard>
             <FeatureCard>
@@ -237,12 +241,15 @@ const MidhaUSP = () => {
                   style={{ fontSize: '48px', color: 'maroon' }}
                 />{' '} */}
               <img src={LiveLogo} />
-              <p className="heading">Live Classes</p>
+              <p className="heading">Systematic Doubt Solving </p>
               <p className="description">
-                Live interactive classes to ensure Every student understands
-                Every concept! Is coding difficult? Yes! But our instructors
-                have guided hundreds of students through the process of
-                developing this valuable skill.
+                We believe curiosity is the mother of all inventions, and so we
+                ensure every single relevant doubt of every single student is
+                cleared within reasonable time frame. Our faculty encourages
+                students to ask doubts and for them no doubt is small or silly.
+                Relevant doubts from other sources are also answered by our
+                faculty and we provide in depth and easy to understand solutions
+                to our students.
               </p>
             </FeatureCard>
             <FeatureCard>
@@ -251,13 +258,13 @@ const MidhaUSP = () => {
                   style={{ fontSize: '48px', color: 'maroon' }}
                 />{' '} */}
               <img src={ProLogo} />
-              <p className="heading">Project Based Learning</p>
+              <p className="heading">End to End Mentorship </p>
               <p className="description">
-                Faculty guides every student to build various projects that not
-                only help get a deep understanding of the concepts, but also,
-                allows for additions to the resume. Why only write about knowing
-                python when you can write about the 5 projects you made in that
-                language!
+                The relationship between our instructors and our students is not
+                just that of instruction and teaching but also of mentorship. We
+                help students throughout the process of learning and even
+                beyond. From study planning to the exam to the relevant job
+                interviews, we are there at every step with our students.
               </p>
             </FeatureCard>
           </FeatureContainer>
