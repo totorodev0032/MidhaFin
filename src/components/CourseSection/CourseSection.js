@@ -2,12 +2,6 @@ import React from 'react';
 import styled from '@emotion/styled';
 import ProgramImage from '../../images/program3.png';
 import { Link } from 'react-router-dom';
-import DataLogo from '../../images/dataanalytics101.png';
-import JuliaLogo from '../../images/course images/ Julia.png';
-import MachineLogo from '../../images/course images/Deep Learning.png';
-import PythonLogo from '../../images/course images/Phython.png';
-import JavaLogo from '../../images/course images/java.png';
-import DSALogo from '../../images/course images/C++.png';
 import { Programmes } from '../../data/Programmes';
 
 const CourseContainer = styled.div`

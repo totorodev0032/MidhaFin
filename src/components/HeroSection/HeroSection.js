@@ -170,7 +170,7 @@ const HeroRight = styled.div`
   flex-basis: 50%;
   justify-content: space-around;
   align-items: center;
-  flex-wrap:wrap;
+  flex-wrap: wrap;
   @media (max-width: 1280px) {
     img {
       width: 100%;
@@ -198,21 +198,28 @@ const HeroShowcase = styled.img`
   width: 500px;
 `;
 
+const CategoryContainer = styled.div`
+  display: flex;
+  width: 400px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+`;
+
 const SectionBox = styled.div`
-  display:flex;
-  width:200px;
-  background:#d6a468;
-  height:50px;
-  justify-content:center;
-  align-items:center;
-  font-size:25px;
-  font-weight:600;
-  color:#ffffff;
-  border-radius:5px;
-  border:1px solid #6a1b1a;
-  margin-left:10px;
-  margin-top:30px;
-`
+  display: flex;
+  width: 150px;
+  background: #6a1b1a;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 600;
+  color: #ffffff;
+  border-bottom: 5px solid brown;
+  margin-left: 10px;
+  margin-top: 30px;
+`;
 
 const HeroSection = () => {
   return (
@@ -228,7 +235,8 @@ const HeroSection = () => {
               <span className="midha">Pro</span>jects
             </p> */}
             <p className="description">
-              Step-up your career by acquiring the desirable skills and leading global certifications in Finance.
+              Step-up your career by acquiring the desirable skills and leading
+              global certifications in Finance.
             </p>
             <ButtonWrapper>
               <a href="#courseID" style={{ textDecoration: 'none' }}>
@@ -237,10 +245,12 @@ const HeroSection = () => {
             </ButtonWrapper>
           </HeroLeft>
           <HeroRight>
-            <SectionBox>FRM</SectionBox>
-            <SectionBox>PRM</SectionBox>
-            <SectionBox>CFA</SectionBox>
-            <SectionBox>MFSCHOOL</SectionBox>
+            <CategoryContainer>
+              <SectionBox>FRM</SectionBox>
+              <SectionBox>PRM</SectionBox>
+              <SectionBox>CFA</SectionBox>
+              <SectionBox>MFSCHOOL</SectionBox>
+            </CategoryContainer>
           </HeroRight>
         </HeroWrapper>
       </HeroContainer>
