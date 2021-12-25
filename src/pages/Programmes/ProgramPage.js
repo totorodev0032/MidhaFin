@@ -14,26 +14,37 @@ const ProgramPage = ({ match }) => {
       <Toolbar />
       <ProgramPageWrapper>
         <ProgramPageContainer>
-          {ProgramList.ProgramList.map((p) => (
-            <Link to={`/programmes/${ProgramList.id}/${p.id}`} className="link">
-              <ProgramBox>
-                {' '}
-                <ProgramUp>
-                  <Link
-                    to={`/programmes/${ProgramList.id}/${p.id}`}
-                    className="link"
-                  >
-                    <p> {p.title} </p>{' '}
-                  </Link>
-                </ProgramUp>
-                <ProgramDown>
+          {ProgramList.ProgramList.map((p) =>
+            p.category === 1 ? (
+              <>
+                <ProgramBox>
                   {' '}
-                  <p> {p.Meta} </p>
-                  <p className="price"> {p.price} </p>
-                </ProgramDown>
-              </ProgramBox>
-            </Link>
-          ))}
+                  <ProgramUp>
+                    <Link
+                      to={`/programmes/${ProgramList.id}/${p.id}`}
+                      className="link"
+                    >
+                      <p> {p.title} </p>{' '}
+                    </Link>
+                  </ProgramUp>
+                  <ProgramDown>
+                    {' '}
+                    <p> {p.Meta} </p>
+                    <p className="price">
+                      {' '}
+                      Rs. {p.priceR} / USD {p.priceU}{' '}
+                    </p>
+                    <Link
+                      to={`/programmes/${ProgramList.id}/${p.id}`}
+                      className="link"
+                    >
+                      <ButtonPrimary>View Details</ButtonPrimary>
+                    </Link>
+                  </ProgramDown>
+                </ProgramBox>
+              </>
+            ) : null
+          )}
         </ProgramPageContainer>
       </ProgramPageWrapper>
     </>
@@ -53,7 +64,7 @@ const ProgramPageWrapper = styled.div`
 
 const ProgramPageContainer = styled.div`
   display: flex;
-  width: 80%;
+  width: 90%;
   height: auto;
   flex-wrap: wrap;
   justify-content: center;
@@ -73,11 +84,12 @@ const ProgramPageContainer = styled.div`
 const ProgramBox = styled.div`
   display: flex;
   flex-direction: column;
-  width: 220px;
-  height: 200px;
-  border: 1px solid #6a1b1a;
+  width: 250px;
+  height: 290px;
+  ${'' /* border: 1px solid #6a1b1a; */}
   margin-top: 25px;
   margin-left: 25px;
+  box-shadow: 0px 4px 4px 0px #ccccd3;
 
   @media (max-width: 496px) {
     margin-left: 0;
@@ -102,8 +114,8 @@ const ProgramDown = styled.div`
   flex-basis: 50%;
 
   p {
-    font-size: 13px;
-    color: gray;
+    font-size: 15px;
+    color: #000000;
     font-weight: 400;
     padding: 40px 0 0 15px;
   }
@@ -114,4 +126,21 @@ const ProgramDown = styled.div`
     font-weight: 400;
     padding: 0 0 0 15px;
   }
+`;
+
+const ButtonPrimary = styled.button`
+  width: 50%;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border: none;
+  border-bottom: 6px solid brown;
+  background-color: #6a1b1a;
+  font-weight: 500;
+  cursor: pointer;
+  font-size: 12px;
+  margin-left: 14px;
+  margin-top: 15px;
 `;

@@ -29,7 +29,7 @@ const ProgramDetailsPage = ({ match }) => {
         title={Program.title}
         description={Program.Meta}
         programHeroData={Program.courseHerodata}
-        price={Program.price}
+        price={Program.priceR}
         date={Program.date}
         time={Program.time}
       />

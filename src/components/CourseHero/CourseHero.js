@@ -59,7 +59,7 @@ const CourseLeft = styled.div`
   justify-content: center;
 
   .heading {
-    font-size: 35px;
+    font-size: 3rem;
     color: #6a1b1a;
     font-weight: 450;
   }
@@ -67,7 +67,7 @@ const CourseLeft = styled.div`
   .description {
     color: #6a1b1a;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 1.5rem;
   }
 
   ul {
@@ -81,6 +81,7 @@ const CourseLeft = styled.div`
     align-items: center;
     color: #6a1b1a;
     font-weight: 300;
+    font-size: 1.2rem;
 
     ::before {
       content: '▶';
@@ -120,7 +121,7 @@ const EnrollButton = styled.button`
 `;
 
 const ButtonPrimary = styled.button`
-  width: 400px;
+  width: 330px;
   height: 45px;
   display: flex;
   justify-content: center;
@@ -139,7 +140,7 @@ const ButtonPrimary = styled.button`
 `;
 
 const ButtonSecondary = styled.button`
-  width: 400px;
+  width: 330px;
   height: 45px;
   display: flex;
   justify-content: center;
@@ -158,17 +159,19 @@ const ButtonSecondary = styled.button`
 `;
 const CourseRight = styled.div`
   display: flex;
-  width: 90%;
+  width: 80%;
   flex-direction: column;
+  box-shadow: 0px 4px 4px 0px #cecece;
+  border-top: 5px solid #d6a468;
   ${
     '' /* -webkit-box-shadow: 0px 0px 129px -51px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 0px 0px 129px -51px rgba(0, 0, 0, 0.75);
   box-shadow: 0px 0px 129px -51px rgba(0, 0, 0, 0.75); */
   }
-  border-radius: 25px;
+  ${'' /* border-radius: 25px; */}
   overflow: hidden;
   background-color: white;
-  border: 4px solid #f1e0cc;
+  ${'' /* border: 4px solid #f1e0cc; */}
 
   @media (max-width: 496px) {
     width: 100%;
@@ -406,6 +409,7 @@ const CourseRightContainer = styled.div`
 const ShareButtonsContainer = styled.div`
   padding: 10px 20px;
   display: flex;
+  width: 80%;
   justify-content: space-between;
 `;
 
@@ -521,4 +525,5 @@ const ButtonContainer = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 90%;
 `;
