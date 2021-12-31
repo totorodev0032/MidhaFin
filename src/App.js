@@ -26,6 +26,7 @@ import PastSample from './pages/Deliverables/PastSample';
 import Doubt from './pages/Deliverables/Doubt';
 import AccessTillPass from './pages/Deliverables/Access';
 import StudyPlanner from './pages/Deliverables/StudyPlanner';
+import StatSection from './components/StatSection';
 
 const CourseDataAnalytics = {
   title: 'Data Analytics Course',
@@ -168,6 +169,7 @@ function App() {
         <HeroSection />
         <MidhaUSP />
         <CourseSection />
+        <StatSection />
         <FeaturesUSP />
         <ContactUs />
         <Footer />

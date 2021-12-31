@@ -12,7 +12,7 @@ const CourseContainer = styled.div`
   justify-content: center;
   ${'' /* background-color: #f5f6f8; */}
   background-color:white;
-  border-bottom: 15px solid #d29b59;
+  ${'' /* border-bottom: 15px solid #d29b59; */}
 `;
 
 const CourseWrapper = styled.div`
