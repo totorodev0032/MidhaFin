@@ -19,7 +19,7 @@ const CourseHeroContainer = styled.div`
   display: flex;
   flex-wrap: wrap-reverse;
   width: 100%;
-  height: 60vh;
+  height: auto;
   justify-content: center;
   align-items: center;
   border-bottom: 1px solid #cdcdcd;
@@ -40,6 +40,7 @@ const CourseHeroWrapper = styled.div`
   justify-content: space-between;
   width: 80%;
   height: 90%;
+  margin: 5% 0 5% 0;
 
   @media (max-width: 800px) {
     flex-direction: column;

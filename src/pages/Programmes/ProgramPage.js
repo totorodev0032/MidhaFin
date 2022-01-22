@@ -29,18 +29,28 @@ const ProgramPage = ({ match }) => {
                         <p> {p.title} </p>{' '}
                       </Link>
                     </ProgramUp>
+                    <ProgramPointSection>
+                      {p.cardData.map((data) => (
+                        <ul>
+                          <li> {data} </li>
+                        </ul>
+                      ))}
+                    </ProgramPointSection>
                     <ProgramDown>
                       {' '}
                       <p> {p.Meta} </p>
                       <p className="price">
                         {' '}
-                        Rs. {p.priceR} / USD {p.priceU}{' '}
+                        Rs. {p.priceR} / USD {p.priceU}
                       </p>
                       <Link
                         to={`/programmes/${ProgramList.id}/${p.id}`}
                         className="link"
                       >
-                        <ButtonPrimary>View Details</ButtonPrimary>
+                        <ProgramFooter>
+                          {' '}
+                          <ButtonPrimary>View Details</ButtonPrimary>
+                        </ProgramFooter>
                       </Link>
                     </ProgramDown>
                   </ProgramBox>
@@ -67,6 +77,13 @@ const ProgramPage = ({ match }) => {
                           <p> {p.title} </p>{' '}
                         </Link>
                       </ProgramUp>
+                      <ProgramPointSection>
+                        {p.cardData.map((data) => (
+                          <ul>
+                            <li> {data} </li>
+                          </ul>
+                        ))}
+                      </ProgramPointSection>
                       <ProgramDown>
                         {' '}
                         <p> {p.Meta} </p>
@@ -78,7 +95,10 @@ const ProgramPage = ({ match }) => {
                           to={`/programmes/${ProgramList.id}/${p.id}`}
                           className="link"
                         >
-                          <ButtonPrimary>View Details</ButtonPrimary>
+                          <ProgramFooter>
+                            {' '}
+                            <ButtonPrimary>View Details</ButtonPrimary>
+                          </ProgramFooter>{' '}
                         </Link>
                       </ProgramDown>
                     </ProgramBox>
@@ -91,7 +111,7 @@ const ProgramPage = ({ match }) => {
 
         {ProgramList.parts > 2 ? (
           <ProgramPageContainer>
-            <h3> {ProgramList.title} Part III </h3>
+            <h3> {ProgramList.title} Part I & III Combined </h3>
             <CategoryContainer>
               {ProgramList.ProgramList.map((p) =>
                 p.category === 2 ? (
@@ -106,8 +126,14 @@ const ProgramPage = ({ match }) => {
                           <p> {p.title} </p>{' '}
                         </Link>
                       </ProgramUp>
+                      <ProgramPointSection>
+                        {p.cardData.map((data) => (
+                          <ul>
+                            <li> {data} </li>
+                          </ul>
+                        ))}
+                      </ProgramPointSection>
                       <ProgramDown>
-                        {' '}
                         <p> {p.Meta} </p>
                         <p className="price">
                           {' '}
@@ -117,7 +143,10 @@ const ProgramPage = ({ match }) => {
                           to={`/programmes/${ProgramList.id}/${p.id}`}
                           className="link"
                         >
-                          <ButtonPrimary>View Details</ButtonPrimary>
+                          <ProgramFooter>
+                            {' '}
+                            <ButtonPrimary>View Details</ButtonPrimary>
+                          </ProgramFooter>{' '}
                         </Link>
                       </ProgramDown>
                     </ProgramBox>
@@ -183,7 +212,7 @@ const ProgramBox = styled.div`
   display: flex;
   flex-direction: column;
   width: 250px;
-  height: 290px;
+  height: auto;
   ${'' /* border: 1px solid #6a1b1a; */}
   margin-top: 25px;
   margin-right: 25px;
@@ -196,7 +225,7 @@ const ProgramBox = styled.div`
 
 const ProgramUp = styled.div`
   display: flex;
-  flex-basis: 50%;
+  height: 100px;
   background: #eeeeee;
   border-bottom: 3px solid #6a1b1a;
 
@@ -208,8 +237,9 @@ const ProgramUp = styled.div`
 
 const ProgramDown = styled.div`
   display: flex;
+  height: auto;
   flex-direction: column;
-  flex-basis: 50%;
+  margin-top: 20px;
 
   p {
     font-size: 15px;
@@ -226,8 +256,50 @@ const ProgramDown = styled.div`
   }
 `;
 
+const ProgramPointSection = styled.div`
+  display: flex;
+  width:100%;
+  height: 300px;
+  flex-direction: column;
+  margin-top: 30px;
+  ${'' /* justify-content:center; */}
+  align-items:center;
+
+
+ul {
+    margin-top: 20px;
+    width:90%;
+  }
+
+  ul li {
+    display: grid;
+    grid-template-columns: 20px auto;
+    justify-content: start;
+    align-items: center;
+    font-weight: 500;
+    font-size: 0.9rem;
+    padding-bottom:0;
+    padding-top:0;
+
+    ::before {
+      content: '▶';
+      font-size: 8px;
+      color: maroon;
+    }
+`;
+
+const ProgramFooter = styled.div`
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  bottom: 0;
+  margin-top: 20px;
+  padding-bottom: 25px;
+`;
+
 const ButtonPrimary = styled.button`
-  width: 50%;
+  width: 90%;
   height: 30px;
   display: flex;
   justify-content: center;
@@ -239,6 +311,4 @@ const ButtonPrimary = styled.button`
   font-weight: 500;
   cursor: pointer;
   font-size: 12px;
-  margin-left: 14px;
-  margin-top: 15px;
 `;

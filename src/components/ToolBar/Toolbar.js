@@ -180,7 +180,7 @@ const Toolbar = () => {
                 }}
               >
                 <Link
-                  to="programmes/frm"
+                  to="/programmes/frm"
                   style={{
                     textDecoration: 'none',
                     color: 'maroon',
@@ -191,7 +191,7 @@ const Toolbar = () => {
                   FRM
                 </Link>
                 <Link
-                  to="programmes/prm"
+                  to="/programmes/prm"
                   style={{
                     textDecoration: 'none',
                     color: 'maroon',
@@ -202,7 +202,7 @@ const Toolbar = () => {
                   PRM
                 </Link>
                 <Link
-                  to="programmes/cfa"
+                  to="/programmes/cfa"
                   style={{
                     textDecoration: 'none',
                     color: 'maroon',
@@ -214,7 +214,7 @@ const Toolbar = () => {
                 </Link>
 
                 <Link
-                  to="programmes/mfschool"
+                  to="/programmes/mfschool"
                   style={{
                     textDecoration: 'none',
                     color: 'maroon',

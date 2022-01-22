@@ -2,6 +2,7 @@ import React from 'react';
 import heroImage from '../../images/heroImg.png';
 import heroBack from '../../images/back.png';
 import styled from '@emotion/styled';
+import { Link } from 'react-router-dom';
 
 const HeroContainer = styled.div`
   display: flex;
@@ -204,6 +205,11 @@ const CategoryContainer = styled.div`
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+
+  .link {
+    text-decoration: none;
+    color: white;
+  }
 `;
 
 const SectionBox = styled.div`
@@ -246,9 +252,18 @@ const HeroSection = () => {
           </HeroLeft>
           <HeroRight>
             <CategoryContainer>
-              <SectionBox>FRM</SectionBox>
-              <SectionBox>PRM</SectionBox>
-              <SectionBox>CFA</SectionBox>
+              <Link to="/programmes/frm" className="link">
+                <SectionBox>FRM</SectionBox>
+              </Link>
+
+              <Link to="/programmes/prm" className="link">
+                <SectionBox>PRM</SectionBox>
+              </Link>
+
+              <Link to="/programmes/cfa" className="link">
+                <SectionBox>CFA</SectionBox>
+              </Link>
+
               <SectionBox>MFSCHOOL</SectionBox>
             </CategoryContainer>
           </HeroRight>
