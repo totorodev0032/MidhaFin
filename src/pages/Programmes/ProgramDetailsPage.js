@@ -28,12 +28,16 @@ const ProgramDetailsPage = ({ match }) => {
       <CourseHero
         title={Program.title}
         description={Program.Meta}
+        image={Program.image}
         programHeroData={Program.courseHerodata}
         price={Program.priceR}
         date={Program.date}
         time={Program.time}
       />
       <CourseAbout courseAbout={Program.courseAbout} />
+      {Program.curriculum ? (
+        <SyllabusSection curriculum={Program.curriculum} />
+      ) : null}
       <ContactUs />
       <Footer />
     </>

@@ -142,7 +142,7 @@ const CourseCardDescription = styled.div`
   }
 
   .text {
-    font-size: 18px;
+    font-size: 1rem;
     color: rgba(0, 0, 0, 0.6);
     padding: 0px 20px;
     line-height: 25px;

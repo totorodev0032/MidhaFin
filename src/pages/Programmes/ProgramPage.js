@@ -46,6 +46,7 @@ const ProgramPage = ({ match }) => {
                       <Link
                         to={`/programmes/${ProgramList.id}/${p.id}`}
                         className="link"
+                        onClick={() => window.scroll(0, 0)}
                       >
                         <ProgramFooter>
                           {' '}
@@ -94,6 +95,7 @@ const ProgramPage = ({ match }) => {
                         <Link
                           to={`/programmes/${ProgramList.id}/${p.id}`}
                           className="link"
+                          onClick={() => window.scroll(0, 0)}
                         >
                           <ProgramFooter>
                             {' '}
@@ -142,6 +144,7 @@ const ProgramPage = ({ match }) => {
                         <Link
                           to={`/programmes/${ProgramList.id}/${p.id}`}
                           className="link"
+                          onClick={() => window.scroll(0, 0)}
                         >
                           <ProgramFooter>
                             {' '}
@@ -178,7 +181,8 @@ const ProgramPageContainer = styled.div`
   width: 80%;
   height: auto;
   flex-direction: column;
-  ${'' /* align-items: center; */}
+  ${'' /* justify-content: center; */}
+  align-items: center;
   margin-top: 5%;
 
   .link {
@@ -201,9 +205,9 @@ const CategoryContainer = styled.div`
   width: 100%;
   height: auto;
   flex-wrap: wrap;
-  ${'' /* justify-content: center; */}
+  justify-content: center;
 
-  @media(max-width:496px) {
+  @media (max-width: 496px) {
     justify-content: center;
   }
 `;
@@ -211,7 +215,7 @@ const CategoryContainer = styled.div`
 const ProgramBox = styled.div`
   display: flex;
   flex-direction: column;
-  width: 250px;
+  width: 300px;
   height: auto;
   ${'' /* border: 1px solid #6a1b1a; */}
   margin-top: 25px;
@@ -225,13 +229,14 @@ const ProgramBox = styled.div`
 
 const ProgramUp = styled.div`
   display: flex;
-  height: 100px;
+  height: 130px;
   background: #eeeeee;
   border-bottom: 3px solid #6a1b1a;
 
   p {
+    font-size: 1.3rem;
     font-weight: 600;
-    padding: 15px 0 0 15px;
+    padding: 25px 0 0 15px;
   }
 `;
 
@@ -300,7 +305,7 @@ const ProgramFooter = styled.div`
 
 const ButtonPrimary = styled.button`
   width: 90%;
-  height: 30px;
+  height: 40px;
   display: flex;
   justify-content: center;
   align-items: center;

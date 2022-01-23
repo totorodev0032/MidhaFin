@@ -181,14 +181,14 @@ const CourseRight = styled.div`
 `;
 
 const ImageWrapper = styled.div`
-  padding: 20px;
+  padding: 0 20px 0 20px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   .image {
     width: 400px;
-    height: 300px;
+    height: auto;
     @media screen and (max-width: 500px) {
       width: 250px;
       height: 200px;
@@ -258,12 +258,8 @@ const CourseHero = ({
           <CourseRightContainer>
             <CourseRight>
               <ImageWrapper>
-                <img
-                  className="image"
-                  alt="course desc"
-                  src={toggleImg ? image : certi}
-                />
-                <div
+                <img className="image" alt="course desc" src={image} />
+                {/* <div
                   style={{
                     display: 'flex',
                     justifyContent: 'center',
@@ -271,30 +267,7 @@ const CourseHero = ({
                     height: '10px',
                     padding: '10px',
                   }}
-                >
-                  <span
-                    style={{
-                      color: 'maroon',
-                      fontSize: '24px',
-                      cursor: 'pointer',
-                      padding: '5px',
-                    }}
-                    onClick={toggleImage}
-                  >
-                    {toggleImg ? '〇' : '◉'}
-                  </span>
-                  <span
-                    style={{
-                      color: 'maroon',
-                      fontSize: '24px',
-                      cursor: 'pointer',
-                      padding: '5px',
-                    }}
-                    onClick={toggleImage}
-                  >
-                    {toggleImg ? '◉' : '〇'}
-                  </span>
-                </div>
+                ></div> */}
               </ImageWrapper>
               <DetailsWrapper>
                 <DataContainer>
@@ -319,9 +292,7 @@ const CourseHero = ({
                       <h2>₹{price}/-</h2>
                     </div>
 
-                    <p style={{ marginRight: '5px' }}>
-                      (Including certification cost)
-                    </p>
+                    <p style={{ marginRight: '5px' }}></p>
                   </Price>
                 </DataContainer>
                 <CertificateWrapper>

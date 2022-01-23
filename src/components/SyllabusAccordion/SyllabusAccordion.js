@@ -53,14 +53,13 @@ export default function SyllabusAccordions({ curriculum }) {
               id="panel1bh-header"
             >
               <Typography className={classes.heading}>
-                Module {index + 1}
+                WEEK {index + 1}
               </Typography>
             </AccordionSummary>
             <AccordionDetails className={classes.summaryContainer}>
-              {data.map((point) => (
+              {data.map((point, index) => (
                 <Typography>
-                  {' '}
-                  <ListItem>{point}</ListItem>{' '}
+                  {index > 0 && <ListItem>{point}</ListItem>}
                 </Typography>
               ))}
             </AccordionDetails>
