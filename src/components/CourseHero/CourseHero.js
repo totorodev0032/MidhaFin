@@ -207,7 +207,8 @@ const ShareLink = styled.button`
 const CourseHero = ({
   title,
   description,
-  price,
+  priceR,
+  priceU,
   programHeroData,
   enrollLink,
   image,
@@ -271,7 +272,7 @@ const CourseHero = ({
               </ImageWrapper>
               <DetailsWrapper>
                 <DataContainer>
-                  <Data>
+                  {/* <Data>
                     <h2>
                       <BsCalendar
                         style={{ color: 'black', fontSize: '20px' }}
@@ -284,12 +285,19 @@ const CourseHero = ({
                       />{' '}
                       <span>{time}</span>
                     </h2>
-                  </Data>
+                  </Data> */}
                   <Price>
                     {/* <p className="banner">SEPTEMBER'21 OFFER PRICE</p> */}
-                    <div style={{ display: 'flex', marginLeft: '15px' }}>
+                    <div style={{ display: 'flex', marginLeft: '25px' }}>
                       {/* <h3>₹{CourseData.mrp}</h3> */}
-                      <h2>₹{price}/-</h2>
+
+                      {priceR === null ? (
+                        <h2>Contact Us for pricing</h2>
+                      ) : (
+                        <h2>
+                          ₹{priceR} / USD {priceU}
+                        </h2>
+                      )}
                     </div>
 
                     <p style={{ marginRight: '5px' }}></p>

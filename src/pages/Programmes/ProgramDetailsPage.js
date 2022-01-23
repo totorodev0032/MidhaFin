@@ -30,7 +30,8 @@ const ProgramDetailsPage = ({ match }) => {
         description={Program.Meta}
         image={Program.image}
         programHeroData={Program.courseHerodata}
-        price={Program.priceR}
+        priceR={Program.priceR}
+        priceU={Program.priceU}
         date={Program.date}
         time={Program.time}
       />
