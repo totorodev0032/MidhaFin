@@ -14,6 +14,9 @@ import LiveLogo from '../../images/live2.png';
 import CertiLogo from '../../images/certi2.png';
 import ProLogo from '../../images/pro2.png';
 import { MdCall } from 'react-icons/md';
+import { AiOutlineSafetyCertificate } from 'react-icons/ai';
+import { AiOutlineContainer } from 'react-icons/ai';
+import { AiOutlineRetweet } from 'react-icons/ai';
 
 const CourseHeroContainer = styled.div`
   display: flex;
@@ -160,7 +163,7 @@ const ButtonSecondary = styled.button`
 `;
 const CourseRight = styled.div`
   display: flex;
-  width: 80%;
+  width: 90%;
   flex-direction: column;
   box-shadow: 0px 4px 4px 0px #cecece;
   border-top: 5px solid #d6a468;
@@ -212,9 +215,7 @@ const CourseHero = ({
   programHeroData,
   enrollLink,
   image,
-  certi,
-  date,
-  time,
+  usp,
 }) => {
   const [toggleImg, setToggleImg] = React.useState(true);
   const [copied, setCopied] = React.useState(false);
@@ -309,21 +310,23 @@ const CourseHero = ({
                   </Price>
                 </DataContainer>
                 <CertificateWrapper>
-                  <CertificateBox>
-                    {/* <BsCardChecklist style={{ fontSize: '42px' }} /> */}
-                    <img src={CertiLogo} />
-                    <span>Certification</span>
-                  </CertificateBox>
-                  <CertificateBox>
-                    {/* <MdLiveTv style={{ fontSize: '42px' }} /> */}
-                    <img src={LiveLogo} />
-                    <span>Live Classes</span>
-                  </CertificateBox>
-                  <CertificateBox>
-                    {/* <FaChalkboardTeacher style={{ fontSize: '42px' }} /> */}
-                    <img src={ProLogo} />
-                    <span>Project Based</span>
-                  </CertificateBox>
+                  {usp
+                    ? usp.map((data, index) => (
+                        <CertificateBox>
+                          {/* <BsCardChecklist style={{ fontSize: '42px' }} /> */}
+                          {index === 0 ? (
+                            <AiOutlineSafetyCertificate
+                              style={{ fontSize: '42px' }}
+                            />
+                          ) : index === 1 ? (
+                            <AiOutlineContainer style={{ fontSize: '42px' }} />
+                          ) : (
+                            <AiOutlineRetweet style={{ fontSize: '42px' }} />
+                          )}
+                          <span> {data} </span>
+                        </CertificateBox>
+                      ))
+                    : null}
                 </CertificateWrapper>
                 <ButtonContainer>
                   <a href={enrollLink} style={{ textDecoration: 'none' }}>

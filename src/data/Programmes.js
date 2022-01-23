@@ -57,6 +57,8 @@ export const Programmes = [
           'Standard study plan',
         ],
 
+        USP: ['Own Pace', 'Quality Material', 'Doubt forum'],
+
         curriculum: [
           [
             'WEEK 1',
@@ -201,6 +203,8 @@ export const Programmes = [
           'Mock Tests',
           'Monthly Tests',
         ],
+
+        USP: ['24/7 support', 'Relevant mocks', '2000+ questions'],
         curriculum: [
           [
             'WEEK 1',
@@ -345,6 +349,8 @@ export const Programmes = [
           'Direct Access to the Faculty',
           'End to End mentorship',
         ],
+
+        USP: ['Live Classes', '2000+ questions', 'Mentoring'],
         curriculum: [
           [
             'WEEK 1',
@@ -480,6 +486,7 @@ export const Programmes = [
           'Full individual attention',
           'Completing the course at the students timeline',
         ],
+        USP: ['Personal Focus', 'Tailored Pace', 'Mentoring '],
         curriculum: [
           [
             'WEEK 1',
@@ -610,6 +617,7 @@ export const Programmes = [
           'Every doubt will be solved',
           'Standard study plan',
         ],
+        USP: ['Own Pace', 'Quality Material', 'Doubt forum'],
 
         cardData: [
           'Lecture Videos',
@@ -654,6 +662,8 @@ export const Programmes = [
           'Mock Tests',
           'Monthly Tests',
         ],
+
+        USP: ['24/7 support', 'Relevant mocks', '2000+ questions'],
       },
       {
         id: 'frm2-live-online-class',
@@ -690,6 +700,7 @@ export const Programmes = [
           'Direct Access to the Faculty',
           'End to End mentorship',
         ],
+        USP: ['Live Classes', '2000+ questions', 'Mentoring'],
       },
       // {
       //   id: 'frm2-one-to-one-live-sessions',
@@ -810,6 +821,7 @@ export const Programmes = [
           'Direct Access to the Faculty',
           'End to End mentorship',
         ],
+        USP: ['Live Classes', '2000+ questions', 'Mentoring'],
       },
     ],
   },
@@ -857,6 +869,7 @@ export const Programmes = [
           'Mock tests',
           'Monthly tests',
         ],
+        USP: ['Own Pace', 'Quality Material', 'Doubt forum'],
 
         curriculum: [
           [
@@ -957,6 +970,8 @@ export const Programmes = [
           'Direct access to Faculty',
           'End to End Mentorship',
         ],
+
+        USP: ['24/7 support', 'Relevant mocks', '2000+ questions'],
 
         curriculum: [
           [
@@ -1202,6 +1217,8 @@ export const Programmes = [
           'Mock Tests',
           'Monthly tests',
         ],
+
+        USP: ['Own Pace', 'Quality Material', 'Doubt forum'],
         curriculum: [
           [
             'WEEK 1 - Ethics',
@@ -1371,6 +1388,7 @@ export const Programmes = [
           'Direct Access to faculty',
           'End to End Mentorship',
         ],
+        USP: ['24/7 support', 'Relevant mocks', '2000+ questions'],
         curriculum: [
           [
             'WEEK 1 - Ethics',

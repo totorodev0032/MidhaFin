@@ -34,6 +34,7 @@ const ProgramDetailsPage = ({ match }) => {
         priceU={Program.priceU}
         date={Program.date}
         time={Program.time}
+        usp={Program.USP}
       />
       <CourseAbout courseAbout={Program.courseAbout} />
       {Program.curriculum ? (
