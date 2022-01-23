@@ -10,9 +10,10 @@ import logo from '../../images/midha.jpg';
 
 const useStyles = makeStyles((theme) => ({
   root: {
+    background: '#fafafa',
     width: '100%',
-    border: '1px solid #6a1b1a',
-    borderRadius: '5px',
+    // border: '1px solid #6a1b1a',
+    // borderRadius: '5px',
   },
   heading: {
     fontSize: theme.typography.pxToRem(18),
@@ -52,9 +53,7 @@ export default function SyllabusAccordions({ curriculum }) {
               aria-controls="panel1bh-content"
               id="panel1bh-header"
             >
-              <Typography className={classes.heading}>
-                WEEK {index + 1}
-              </Typography>
+              <Typography className={classes.heading}>{data[0]}</Typography>
             </AccordionSummary>
             <AccordionDetails className={classes.summaryContainer}>
               {data.map((point, index) => (

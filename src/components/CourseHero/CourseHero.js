@@ -286,9 +286,14 @@ const CourseHero = ({
                       <span>{time}</span>
                     </h2>
                   </Data> */}
-                  <Price>
+                  <Price style={{ marginLeft: 'auto' }}>
                     {/* <p className="banner">SEPTEMBER'21 OFFER PRICE</p> */}
-                    <div style={{ display: 'flex', marginLeft: '25px' }}>
+                    <div
+                      style={{
+                        display: 'flex',
+                        marginLeft: 'auto',
+                      }}
+                    >
                       {/* <h3>₹{CourseData.mrp}</h3> */}
 
                       {priceR === null ? (
@@ -300,7 +305,7 @@ const CourseHero = ({
                       )}
                     </div>
 
-                    <p style={{ marginRight: '5px' }}></p>
+                    {/* <p style={{ marginRight: '5px' }}></p> */}
                   </Price>
                 </DataContainer>
                 <CertificateWrapper>
