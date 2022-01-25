@@ -18,6 +18,10 @@ import PrmPart1Tp2 from '../images/course images/prm/prm_part1_tp2.jpg';
 import CfaLevel1Tp1 from '../images/course images/cfa/cfa_level1_tp1.jpg';
 import CfaLevel1Tp2 from '../images/course images/cfa/cfa_level1_tp2.jpg';
 
+import MickyImage from '../images/instructors/Micky.jpg';
+import ShubhamImage from '../images/instructors/Shubham.jpg';
+import VishImage from '../images/instructors/Vish.jpg';
+
 export const Programmes = [
   {
     id: 'frm',
@@ -58,6 +62,20 @@ export const Programmes = [
         ],
 
         USP: ['Own Pace', 'Quality Material', 'Doubt forum'],
+        instructors: [
+          {
+            name: 'Micky Midha',
+            image: MickyImage,
+            description:
+              'A Computer Science Engineer, with a LLB degree, who is both FRM certified and a CFA charter holder, Micky Midha has 8+ years of experience in FRM and CFA training. He has been a trainer at the Bombay Stock Exchange Institute Limited and a guest faculty/freelance trainer/keynote speaker at premier B-schools including IIM Ranchi, ISM, etc. He is a mentor, with a passion for teaching, and an industry expert with deep understanding of the finance field. ',
+          },
+          {
+            name: 'Shubham Swaraj',
+            image: ShubhamImage,
+            description:
+              'Shubham Swaraj is a data science degree holder from IIIT Bengaluru and a Masters Candidate in data science from Liverpool John Moore University (London). With his expertise in using software packages to show the practical applications of the concepts, he has been teaching and training industry experts and professionals in risk management and statistics for several years. ',
+          },
+        ],
 
         curriculum: [
           [
@@ -202,6 +220,20 @@ export const Programmes = [
           'Past Sample Paper Questions',
           'Mock Tests',
           'Monthly Tests',
+        ],
+        instructors: [
+          {
+            name: 'Micky Midha',
+            image: MickyImage,
+            description:
+              'A Computer Science Engineer, with a LLB degree, who is both FRM certified and a CFA charter holder, Micky Midha has 8+ years of experience in FRM and CFA training. He has been a trainer at the Bombay Stock Exchange Institute Limited and a guest faculty/freelance trainer/keynote speaker at premier B-schools including IIM Ranchi, ISM, etc. He is a mentor, with a passion for teaching, and an industry expert with deep understanding of the finance field. ',
+          },
+          {
+            name: 'Shubham Swaraj',
+            image: ShubhamImage,
+            description:
+              'Shubham Swaraj is a data science degree holder from IIIT Bengaluru and a Masters Candidate in data science from Liverpool John Moore University (London). With his expertise in using software packages to show the practical applications of the concepts, he has been teaching and training industry experts and professionals in risk management and statistics for several years. ',
+          },
         ],
 
         USP: ['24/7 support', 'Relevant mocks', '2000+ questions'],
@@ -350,6 +382,21 @@ export const Programmes = [
           'End to End mentorship',
         ],
 
+        instructors: [
+          {
+            name: 'Micky Midha',
+            image: MickyImage,
+            description:
+              'A Computer Science Engineer, with a LLB degree, who is both FRM certified and a CFA charter holder, Micky Midha has 8+ years of experience in FRM and CFA training. He has been a trainer at the Bombay Stock Exchange Institute Limited and a guest faculty/freelance trainer/keynote speaker at premier B-schools including IIM Ranchi, ISM, etc. He is a mentor, with a passion for teaching, and an industry expert with deep understanding of the finance field. ',
+          },
+          {
+            name: 'Shubham Swaraj',
+            image: ShubhamImage,
+            description:
+              'Shubham Swaraj is a data science degree holder from IIIT Bengaluru and a Masters Candidate in data science from Liverpool John Moore University (London). With his expertise in using software packages to show the practical applications of the concepts, he has been teaching and training industry experts and professionals in risk management and statistics for several years. ',
+          },
+        ],
+
         USP: ['Live Classes', '2000+ questions', 'Mentoring'],
         curriculum: [
           [
@@ -486,6 +533,21 @@ export const Programmes = [
           'Full individual attention',
           'Completing the course at the students timeline',
         ],
+        instructors: [
+          {
+            name: 'Micky Midha',
+            image: MickyImage,
+            description:
+              'A Computer Science Engineer, with a LLB degree, who is both FRM certified and a CFA charter holder, Micky Midha has 8+ years of experience in FRM and CFA training. He has been a trainer at the Bombay Stock Exchange Institute Limited and a guest faculty/freelance trainer/keynote speaker at premier B-schools including IIM Ranchi, ISM, etc. He is a mentor, with a passion for teaching, and an industry expert with deep understanding of the finance field. ',
+          },
+          {
+            name: 'Shubham Swaraj',
+            image: ShubhamImage,
+            description:
+              'Shubham Swaraj is a data science degree holder from IIIT Bengaluru and a Masters Candidate in data science from Liverpool John Moore University (London). With his expertise in using software packages to show the practical applications of the concepts, he has been teaching and training industry experts and professionals in risk management and statistics for several years. ',
+          },
+        ],
+
         USP: ['Personal Focus', 'Tailored Pace', 'Mentoring '],
         curriculum: [
           [
@@ -624,6 +686,32 @@ export const Programmes = [
           'Complete Study Material',
           'Every doubt will be solved',
           'Standard study plan',
+        ],
+
+        curriculum: [
+          [
+            'WEEK 1',
+            'MR 1 - Estimating Market Risk Measures',
+            'MR 2 - Non-Parametric Approaches',
+            'MR 3 - Parametric Approaches (II): Extreme Value',
+            'MR 4 – Backtesting VaR',
+            'MR 5 - VaR Mapping',
+          ],
+          [
+            'WEEK 2',
+            'MR 7 – Correlation Basics: Definitions, Applications, and Terminology',
+            'MR 8 – Empirical Properties of Correlation: How Correlations Behave in the Real World?',
+            'MR 9 – Financial Correlation Modeling— Bottom-Up Approaches',
+            'MR 10 – Empirical Approaches to Risk Metrics and Hedging',
+            'MR 11 – The Science of Term Structure Models',
+            'MR 12 – The Evolution of Short Rates and the Shape of the Term Structure',
+          ],
+          [
+            'WEEK 3',
+            'MR 13 – The Art of Term Structure Models: Drift',
+            'MR 14 – The Art of Term Structure Models: Volatility and Distribution',
+            'MR 15 – Volatility Smiles',
+          ],
         ],
       },
       {

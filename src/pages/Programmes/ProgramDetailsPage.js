@@ -7,6 +7,7 @@ import CourseAbout from '../../components/CourseAbout/CourseAbout';
 import SyllabusSection from '../../components/SyllabusSection/SyllabusSection';
 import ContactUs from '../../components/ContactUs/ContactUs';
 import Footer from '../../components/Footer/Footer';
+import InstructorSection from '../../components/Instructors/InstructorSection';
 
 const ProgramDetailsPage = ({ match }) => {
   const url = match.url;
@@ -40,6 +41,10 @@ const ProgramDetailsPage = ({ match }) => {
       {Program.curriculum ? (
         <SyllabusSection curriculum={Program.curriculum} />
       ) : null}
+      {Program.instructors ? (
+        <InstructorSection instructors={Program.instructors} />
+      ) : null}
+
       <ContactUs />
       <Footer />
     </>
