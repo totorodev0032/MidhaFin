@@ -219,6 +219,7 @@ const CourseHero = ({
   usp,
   category,
   id,
+  formUrl,
 }) => {
   const [copied, setCopied] = React.useState(false);
 
@@ -325,12 +326,14 @@ const CourseHero = ({
                     : null}
                 </CertificateWrapper>
                 <ButtonContainer>
-                  <Link
-                    to={`/programmes/${category}/${id}/enroll`}
-                    style={{ textDecoration: 'none' }}
-                  >
-                    <ButtonPrimary>Enroll Now</ButtonPrimary>
-                  </Link>
+                  {formUrl ? (
+                    <Link
+                      to={`/programmes/${category}/${id}/enroll`}
+                      style={{ textDecoration: 'none' }}
+                    >
+                      <ButtonPrimary>Enroll Now</ButtonPrimary>
+                    </Link>
+                  ) : null}
 
                   <a href="tel:9801176401" style={{ textDecoration: 'none' }}>
                     <ButtonSecondary>
