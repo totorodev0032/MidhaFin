@@ -175,7 +175,7 @@ function App() {
         <ContactUs />
         <Footer />
       </Route>
-      <Route path="/course">
+      {/* <Route path="/course">
         <Toolbar />
         <FloatingButton />
         <CourseHero />
@@ -184,7 +184,7 @@ function App() {
         <ContactUs />
         <FAQSection />
         <Footer />
-      </Route>
+      </Route> */}
 
       <Route path="/frm-lecture-videos" component={LectureVideos} />
       <Route

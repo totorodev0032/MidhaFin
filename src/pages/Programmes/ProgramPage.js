@@ -39,10 +39,12 @@ const ProgramPage = ({ match }) => {
                     <ProgramDown>
                       {' '}
                       <p> {p.Meta} </p>
-                      <p className="price">
-                        {' '}
-                        Rs. {p.priceR} / USD {p.priceU}
-                      </p>
+                      {p.priceR ? (
+                        <p className="price">
+                          {' '}
+                          Rs. {p.priceR} / USD {p.priceU}
+                        </p>
+                      ) : null}
                       <Link
                         to={`/programmes/${ProgramList.id}/${p.id}`}
                         className="link"
@@ -113,10 +115,10 @@ const ProgramPage = ({ match }) => {
 
         {ProgramList.parts > 2 ? (
           <ProgramPageContainer>
-            <h3> {ProgramList.title} Part I & III Combined </h3>
+            <h3> {ProgramList.title} Part I & II Combined </h3>
             <CategoryContainer>
               {ProgramList.ProgramList.map((p) =>
-                p.category === 2 ? (
+                p.category === 3 ? (
                   <>
                     <ProgramBox>
                       {' '}
