@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 
 const ProgramPage = ({ match }) => {
   const ProgramList = Programmes.find(
-    (ProgramList) => ProgramList.id === match.params.id
+    (ProgramList) => ProgramList.id === match.params.ids
   );
 
   return (

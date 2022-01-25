@@ -27,6 +27,7 @@ import Doubt from './pages/Deliverables/Doubt';
 import AccessTillPass from './pages/Deliverables/Access';
 import StudyPlanner from './pages/Deliverables/StudyPlanner';
 import StatSection from './components/StatSection';
+import ProgramForm from './components/ProgramForm';
 
 const CourseDataAnalytics = {
   title: 'Data Analytics Course',
@@ -204,9 +205,10 @@ function App() {
       <Route path="/refund-and-cancellation-policy" component={Refund} />
       <Route path="/about-us" component={About} />
 
-      <Route path="/programmes/:id" component={ProgramPage} exact />
+      <Route path="/programmes/:ids" component={ProgramPage} exact />
 
-      <Route path="/programmes/:id/:id" component={ProgramDetailsPage} />
+      <Route path="/programmes/:ids/:id" component={ProgramDetailsPage} exact />
+      <Route path="/programmes/:ids/:id/enroll" component={ProgramForm} />
     </Router>
   );
 }

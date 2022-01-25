@@ -41,6 +41,8 @@ export const Programmes = [
         date: '20/02/22',
         time: '8:00pm',
         category: 1,
+        formUrl:
+          'https://forms.zohopublic.com/midhaeducation/form/FRMPARTITP1/formperma/DFx4kSm56ofH3vACgpbtqqyu33h8UGfNO6qc2mMNpJQ',
         courseAbout: [
           'Financial Risk Manager (FRM) is one of the most sought-after designations in finance. The recent financial crises across the globe have made risk management increasingly central to the functioning of modern and complex financial institutions.',
           'FRM certified Professionals are able to reach the top of the corporate ladder not just because of the deep specialized knowledge that they possess but also because of the unique perspective that they bring to the table. In today’s fast-paced and dynamic economy, having specialized knowledge makes professionals less likely to be replicable and thus their expertise is greatly valued.',
@@ -196,6 +198,8 @@ export const Programmes = [
         date: '20/02/22',
         time: '8:00pm',
         category: 1,
+        formUrl:
+          'https://forms.zohopublic.com/midhaeducation/form/FRMPARTITP2/formperma/1mf-tpin6iM5uAjb6w6ICN3W1jaAN33XkcCfe-72IF0',
         courseAbout: [
           'Financial Risk Manager (FRM) is one of the most sought-after designations in finance. The recent financial crises across the globe have made risk management increasingly central to the functioning of modern and complex financial institutions.',
           'FRM certified Professionals are able to reach the top of the corporate ladder not just because of the deep specialized knowledge that they possess but also because of the unique perspective that they bring to the table. In today’s fast-paced and dynamic economy, having specialized knowledge makes professionals less likely to be replicable and thus their expertise is greatly valued.',
@@ -356,6 +360,8 @@ export const Programmes = [
         date: '20/02/22',
         time: '8:00pm',
         category: 1,
+        formUrl:
+          'https://forms.zohopublic.com/midhaeducation/form/FRMPARTITP3/formperma/PmiqaOUYt9Qx8QqGhFFKgU7oa7czUc5AYn6bqVn8mcU',
         courseAbout: [
           'Financial Risk Manager (FRM) is one of the most sought-after designations in finance. The recent financial crises across the globe have made risk management increasingly central to the functioning of modern and complex financial institutions.',
           'FRM certified Professionals are able to reach the top of the corporate ladder not just because of the deep specialized knowledge that they possess but also because of the unique perspective that they bring to the table. In today’s fast-paced and dynamic economy, having specialized knowledge makes professionals less likely to be replicable and thus their expertise is greatly valued.',
@@ -516,6 +522,8 @@ export const Programmes = [
         date: '20/02/22',
         time: '8:00pm',
         category: 1,
+        formUrl:
+          'https://forms.zohopublic.com/midhaeducation/form/FRMPARTITP4/formperma/zdwc-oobbaVA6mSed1ISPpctoqyCUmgvzbVGRoLBZkk',
         courseAbout: [
           'Financial Risk Manager (FRM) is one of the most sought-after designations in finance. The recent financial crises across the globe have made risk management increasingly central to the functioning of modern and complex financial institutions.',
           'FRM certified Professionals are able to reach the top of the corporate ladder not just because of the deep specialized knowledge that they possess but also because of the unique perspective that they bring to the table. In today’s fast-paced and dynamic economy, having specialized knowledge makes professionals less likely to be replicable and thus their expertise is greatly valued.',
@@ -668,6 +676,8 @@ export const Programmes = [
         date: '20/02/22',
         time: '8:00pm',
         category: 2,
+        formUrl:
+          'https://forms.zohopublic.com/midhaeducation/form/FRMPARTIITP1/formperma/lx6NL03yb9nFuZ3lUz0BSY8HYnUM6bGlpvH89bcdgfM',
         courseAbout: [
           'Financial Risk Manager (FRM) is one of the most sought-after designations in finance. The recent financial crises across the globe have made risk management increasingly central to the functioning of modern and complex financial institutions.',
           'FRM certified Professionals are able to reach the top of the corporate ladder not just because of the deep specialized knowledge that they possess but also because of the unique perspective that they bring to the table. In today’s fast-paced and dynamic economy, having specialized knowledge makes professionals less likely to be replicable and thus their expertise is greatly valued.',
@@ -866,6 +876,8 @@ export const Programmes = [
         date: '20/02/22',
         time: '8:00pm',
         category: 2,
+        formUrl:
+          'https://forms.zohopublic.com/midhaeducation/form/FRMPARTIITP2/formperma/gecEYH6_MsMIQCjxDs1kFLFQtUJ8gep6WiJSmy4fuik',
         courseAbout: [
           'Financial Risk Manager (FRM) is one of the most sought-after designations in finance. The recent financial crises across the globe have made risk management increasingly central to the functioning of modern and complex financial institutions.',
           'FRM certified Professionals are able to reach the top of the corporate ladder not just because of the deep specialized knowledge that they possess but also because of the unique perspective that they bring to the table. In today’s fast-paced and dynamic economy, having specialized knowledge makes professionals less likely to be replicable and thus their expertise is greatly valued.',
@@ -1071,6 +1083,8 @@ export const Programmes = [
         date: '20/02/22',
         time: '8:00pm',
         category: 2,
+        formUrl:
+          'https://forms.zohopublic.com/midhaeducation/form/FRMPARTIITP3/formperma/ET7SWZzVDVvtmPw5AePKvlESUweFSHkoTGJA6-62TPU',
         courseAbout: [
           'Financial Risk Manager (FRM) is one of the most sought-after designations in finance. The recent financial crises across the globe have made risk management increasingly central to the functioning of modern and complex financial institutions.',
           'FRM certified Professionals are able to reach the top of the corporate ladder not just because of the deep specialized knowledge that they possess but also because of the unique perspective that they bring to the table. In today’s fast-paced and dynamic economy, having specialized knowledge makes professionals less likely to be replicable and thus their expertise is greatly valued.',
@@ -1294,6 +1308,8 @@ export const Programmes = [
         date: '20/02/22',
         time: '8:00pm',
         category: 3,
+        formUrl:
+          'https://forms.zohopublic.com/midhaeducation/form/FRMPARTIIIcombinedTP1/formperma/V3F6lM2L0dtKDFsC86NL1dly0-9B4dsvCuC9P-iAqlw',
         courseAbout: [
           'Financial Risk Manager (FRM) is one of the most sought-after designations in finance. The recent financial crises across the globe have made risk management increasingly central to the functioning of modern and complex financial institutions.',
           'FRM certified Professionals are able to reach the top of the corporate ladder not just because of the deep specialized knowledge that they possess but also because of the unique perspective that they bring to the table. In today’s fast-paced and dynamic economy, having specialized knowledge makes professionals less likely to be replicable and thus their expertise is greatly valued.',

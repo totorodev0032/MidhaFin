@@ -27,6 +27,8 @@ const ProgramDetailsPage = ({ match }) => {
       <Toolbar />
       <FloatingButton />
       <CourseHero
+        category={separator}
+        id={Program.id}
         title={Program.title}
         description={Program.Meta}
         image={Program.image}
@@ -36,6 +38,7 @@ const ProgramDetailsPage = ({ match }) => {
         date={Program.date}
         time={Program.time}
         usp={Program.USP}
+        formUrl={Program.formUrl}
       />
       <CourseAbout courseAbout={Program.courseAbout} />
       {Program.curriculum ? (

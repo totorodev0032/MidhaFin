@@ -17,6 +17,7 @@ import { MdCall } from 'react-icons/md';
 import { AiOutlineSafetyCertificate } from 'react-icons/ai';
 import { AiOutlineContainer } from 'react-icons/ai';
 import { AiOutlineRetweet } from 'react-icons/ai';
+import { Link } from 'react-router-dom';
 
 const CourseHeroContainer = styled.div`
   display: flex;
@@ -216,15 +217,10 @@ const CourseHero = ({
   enrollLink,
   image,
   usp,
+  category,
+  id,
 }) => {
-  const [toggleImg, setToggleImg] = React.useState(true);
   const [copied, setCopied] = React.useState(false);
-
-  const toggleImage = () => {
-    setToggleImg(!toggleImg);
-  };
-
-  setTimeout(toggleImage, 3000);
 
   function copy() {
     const el = document.createElement('input');
@@ -329,9 +325,12 @@ const CourseHero = ({
                     : null}
                 </CertificateWrapper>
                 <ButtonContainer>
-                  <a href={enrollLink} style={{ textDecoration: 'none' }}>
+                  <Link
+                    to={`/programmes/${category}/${id}/enroll`}
+                    style={{ textDecoration: 'none' }}
+                  >
                     <ButtonPrimary>Enroll Now</ButtonPrimary>
-                  </a>
+                  </Link>
 
                   <a href="tel:9801176401" style={{ textDecoration: 'none' }}>
                     <ButtonSecondary>
