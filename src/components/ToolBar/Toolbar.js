@@ -213,7 +213,7 @@ const Toolbar = () => {
                   CFA
                 </Link>
 
-                <Link
+                {/* <Link
                   to="/programmes/mfschool"
                   style={{
                     textDecoration: 'none',
@@ -223,10 +223,10 @@ const Toolbar = () => {
                   }}
                 >
                   MFSCHOOL
-                </Link>
+                </Link> */}
               </div>
             </p>
-            <Link
+            {/* <Link
               to="/blogs"
               style={{
                 textDecoration: 'none',
@@ -235,7 +235,7 @@ const Toolbar = () => {
               }}
             >
               Blogs
-            </Link>
+            </Link> */}
             <a
               href="#contact"
               style={{

@@ -313,7 +313,7 @@ const ButtonPrimary = styled.button`
   align-items: center;
   color: white;
   border: none;
-  border-bottom: 6px solid brown;
+  border-bottom: 6px solid #d6a468;
   background-color: #6a1b1a;
   font-weight: 500;
   cursor: pointer;

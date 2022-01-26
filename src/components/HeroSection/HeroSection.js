@@ -203,7 +203,7 @@ const CategoryContainer = styled.div`
   display: flex;
   width: 400px;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 
   .link {
@@ -264,7 +264,7 @@ const HeroSection = () => {
                 <SectionBox>CFA</SectionBox>
               </Link>
 
-              <SectionBox>MFSCHOOL</SectionBox>
+              {/* <SectionBox>MFSCHOOL</SectionBox> */}
             </CategoryContainer>
           </HeroRight>
         </HeroWrapper>

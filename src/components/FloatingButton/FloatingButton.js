@@ -5,7 +5,7 @@ import { SiWhatsapp } from 'react-icons/si';
 const FloatingButton = () => {
   return (
     <Div>
-      <a href="https://wa.me/919801176401">
+      <a href="https://wa.me/919155199555">
         <Icon />
       </a>
     </Div>
