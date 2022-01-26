@@ -2573,7 +2573,7 @@ export const Programmes = [
     ProgramList: [
       {
         id: 'cfa1-self-paced-course',
-        title: 'CFA Level I',
+        title: 'Training Package I (TP-I)',
         Meta: 'Self Paced Course',
         image: CfaLevel1Tp1,
         priceR: '29700',
@@ -2746,7 +2746,7 @@ export const Programmes = [
 
       {
         id: 'cfa1-live-online-class',
-        title: 'CFA Level I',
+        title: 'Training Package II (TP-II)',
         Meta: 'Live Online Class',
         image: CfaLevel1Tp2,
         priceR: '41500',

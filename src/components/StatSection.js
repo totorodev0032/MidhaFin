@@ -72,7 +72,7 @@ const StatSection = () => {
           </StatBox>
           <StatBox>
             <Heading>8000+</Heading>
-            <SubHeading>Hours of Live classses delivered</SubHeading>
+            <SubHeading>Hours of Live classes delivered</SubHeading>
           </StatBox>
         </StatContainer>
       </StatWrapper>
