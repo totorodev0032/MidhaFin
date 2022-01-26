@@ -29,6 +29,7 @@ import StudyPlanner from './pages/Deliverables/StudyPlanner';
 import StatSection from './components/StatSection';
 import ProgramForm from './components/ProgramForm';
 import TeamSection from './components/Team/TeamSection';
+import BannerSection from './components/Banner';
 
 function App() {
   return (
@@ -38,6 +39,7 @@ function App() {
         <FloatingButton />
         <HeroSection />
         <MidhaUSP />
+        <BannerSection />
         <CourseSection />
         <StatSection />
         <FeaturesUSP />
