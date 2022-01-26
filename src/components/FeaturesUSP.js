@@ -84,7 +84,7 @@ const FeatureData = [
     link: '/frm-mock-tests',
   },
   {
-    title: 'Access til you Pass',
+    title: 'Access till you Pass',
     icon: AccessTillYouPass,
     link: '/access-till-you-pass',
   },
