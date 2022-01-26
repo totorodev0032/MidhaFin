@@ -236,6 +236,17 @@ const Toolbar = () => {
             >
               Blogs
             </Link> */}
+
+            <Link
+              to="/team"
+              style={{
+                textDecoration: 'none',
+                color: 'black',
+                fontSize: '16px',
+              }}
+            >
+              Our Team
+            </Link>
             <a
               href="#contact"
               style={{
