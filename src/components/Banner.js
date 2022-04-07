@@ -1,7 +1,7 @@
-import React from 'react';
-import styled from '@emotion/styled';
-import footerImage from '../images/footermask.png';
-import { Link } from 'react-router-dom';
+import React from "react";
+import styled from "@emotion/styled";
+import footerImage from "../images/footermask.png";
+import { Link } from "react-router-dom";
 
 const BannerWrapper = styled.div`
   display: flex;
@@ -51,15 +51,15 @@ const BannerContainer = styled.div`
 `;
 
 const ButtonPrimary = styled.button`
-  width: 330px;
+  width: 250px;
   height: 45px;
   display: flex;
   justify-content: center;
   align-items: center;
   color: #6a1b1a;
   border: none;
-  border-bottom: 6px solid #d6a468;
   background-color: #d6a468;
+  border:2px solid #6a1b1a;
   margin-top: 30px;
   font-weight: 600;
   cursor: pointer;
@@ -70,6 +70,37 @@ const ButtonPrimary = styled.button`
     margin-bottom: 20px;
   }
 `;
+
+const ButtonSecondary = styled.button`
+  width: 250px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #6a1b1a;
+  border: none;
+  background-color: #fff;
+  border: 2px solid #d6a468 ;
+  margin-top: 30px;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 20px;
+  border-radius: 5px;
+  @media screen and (max-width: 500px) {
+    width: 250px;
+    margin-bottom: 20px;
+  }
+`;
+
+const ButtonWrapper = styled.div`
+  display: flex;
+  gap : 20px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
+`;
+
 
 const BannerSection = () => {
   return (
@@ -82,7 +113,10 @@ const BannerSection = () => {
             className="link"
             onClick={() => window.scroll(0, 0)}
           >
-            <ButtonPrimary>Explore Our Programs</ButtonPrimary>
+            <ButtonWrapper>
+              <ButtonPrimary>Our Results</ButtonPrimary>
+              <ButtonSecondary>Our Testimonials</ButtonSecondary>
+            </ButtonWrapper>
           </Link>
         </BannerContainer>
       </BannerWrapper>
