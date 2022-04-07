@@ -89,7 +89,7 @@ const TeamSection = () => {
               display:'flex',
               flexDirection:{xs:'column',md:'row',lg:'row'},
               alignContent:'center',
-              alignItems:'center',
+              alignItems:'flex-start',
               justifyContent:'center',
               maxWidth:{xs:'100%',md:'30%'},
               mr:{xs:'0',md:'0.5vw',lg:'1vw'}
