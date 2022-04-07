@@ -81,13 +81,13 @@ const MenuWrapper = styled.div`
 const NavItemWrapper = styled.div`
   display: flex;
   margin-top: 15px;
-  width: 40%;
+  width: 50%;
   align-items: center;
   height: 100%;
   color: black;
   justify-content: space-around;
   @media screen and (max-width: 1000px) {
-    width: 40%;
+    width: 55%;
   }
   @media screen and (max-width: 800px) {
     display: none;
@@ -167,7 +167,7 @@ const Toolbar = () => {
                   style={{
                     color: 'maroon',
                     fontSize: '18px',
-                    marginLeft: '3px',
+                    marginLeft: '1px',
                   }}
                 />
               </div>
@@ -319,6 +319,7 @@ const Toolbar = () => {
                 textDecoration: 'none',
                 color: 'black',
                 fontSize: '16px',
+                marginRight:'0.2px'
               }}
             >
               Our Team

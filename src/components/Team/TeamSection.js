@@ -29,7 +29,8 @@ const TeamSectionWrapper = styled.div`
 
 const TeamSectionContainer = styled.div`
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap:wrap;
   width: 80%;
   height: auto;
   padding: 20px 0 30px 0;
@@ -81,7 +82,7 @@ const TeamSection = () => {
       <Toolbar />
       <TeamSectionWrapper>
         <p className="heading">OUR TEAM</p>
-        {/* <TeamSectionContainer> */}
+        <TeamSectionContainer>
          
           {Members.map((member) => (
              <Box  sx={{
@@ -90,7 +91,7 @@ const TeamSection = () => {
               alignContent:'center',
               alignItems:'center',
               justifyContent:'center',
-              maxWidth:{xs:'100%',md:'75%'},
+              maxWidth:{xs:'100%',md:'30%'},
               mr:{xs:'0',md:'0.5vw',lg:'1vw'}
             }}>
             <MemberBox
@@ -100,7 +101,7 @@ const TeamSection = () => {
             />
             </Box>
           ))}
-        {/* </TeamSectionContainer>{' '} */}
+        </TeamSectionContainer>{' '}
       </TeamSectionWrapper>
     </>
   );
