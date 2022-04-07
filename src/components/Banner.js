@@ -22,6 +22,7 @@ const BannerContainer = styled.div`
   width: 80%;
   height: 30vh;
   background: url(${footerImage});
+  background-size: cover;
   border-radius: 10px;
   justify-content: center;
   align-items: center;
@@ -58,9 +59,9 @@ const ButtonPrimary = styled.button`
   align-items: center;
   color: #6a1b1a;
   border: none;
+  margin-top: 30px;
   background-color: #d6a468;
   border:2px solid #6a1b1a;
-  margin-top: 30px;
   font-weight: 600;
   cursor: pointer;
   font-size: 20px;
@@ -81,24 +82,25 @@ const ButtonSecondary = styled.button`
   border: none;
   background-color: #fff;
   border: 2px solid #d6a468 ;
-  margin-top: 30px;
   font-weight: 600;
+  margin-top: 30px;
   cursor: pointer;
   font-size: 20px;
   border-radius: 5px;
   @media screen and (max-width: 500px) {
     width: 250px;
     margin-bottom: 20px;
+    margin-top: 0;
   }
 `;
 
 const ButtonWrapper = styled.div`
   display: flex;
-  gap : 20px;
   justify-content: center;
   align-items: center;
   width: 100%;
   flex-wrap: wrap;
+  gap: 20px;
 `;
 
 
