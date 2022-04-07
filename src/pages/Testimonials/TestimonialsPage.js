@@ -36,7 +36,10 @@ export default function TestimonialsPage() {
     <>
     <Toolbar/>
     <TestimonialSectionWrapper>
-    <p className="heading">OUR TESTIMONIALS</p>
+    <p className="heading" style={{fontWeight: '600',
+    fontSize: '2rem',
+    marginTop: '30px',
+    marginBottom: '3%'}}>OUR TESTIMONIALS</p>
    <TestimonialContainer>
    <TestimonialBox/>
    </TestimonialContainer>

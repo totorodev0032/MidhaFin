@@ -9,6 +9,7 @@ import AkashImage from '../../images/instructors/Akash.jpg';
 import NiranjanImage from '../../images/instructors/Niranjan.jpg';
 
 import Toolbar from '../ToolBar/Toolbar';
+import { Box } from '@mui/material';
 
 const TeamSectionWrapper = styled.div`
   display: flex;
@@ -80,15 +81,26 @@ const TeamSection = () => {
       <Toolbar />
       <TeamSectionWrapper>
         <p className="heading">OUR TEAM</p>
-        <TeamSectionContainer>
+        {/* <TeamSectionContainer> */}
+         
           {Members.map((member) => (
+             <Box  sx={{
+              display:'flex',
+              flexDirection:{xs:'column',md:'row',lg:'row'},
+              alignContent:'center',
+              alignItems:'center',
+              justifyContent:'center',
+              maxWidth:{xs:'100%',md:'75%'},
+              mr:{xs:'0',md:'0.5vw',lg:'1vw'}
+            }}>
             <MemberBox
               name={member.name}
               image={member.image}
               description={member.description}
             />
+            </Box>
           ))}
-        </TeamSectionContainer>{' '}
+        {/* </TeamSectionContainer>{' '} */}
       </TeamSectionWrapper>
     </>
   );
