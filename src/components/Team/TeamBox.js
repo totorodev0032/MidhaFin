@@ -103,7 +103,7 @@ const MemberBox = ({ name, image, description }) => {
 
 
 <CardHeader avatar={<Avatar sx={{width:'10vw' , height:'auto'}}     src={image}></Avatar>}></CardHeader>
-<CardContent component={Typography} variant='h3' sx={{fontFamily:'inherit'}}>
+<CardContent component={Typography} variant='h4' sx={{fontFamily:'inherit'}}>
             {name}
             </CardContent>
 
