@@ -124,6 +124,12 @@ const Toolbar = () => {
   const toggleDropdown = () => {
     setDropdown(!dropdown);
   };
+
+  const [dropdowntwo, setDropdownTwo] = useState(false);
+  const toggleDropdownTwo = () => {
+    setDropdownTwo(!dropdowntwo);
+  };
+
   return (
     <>
       <ToolbarLayout>
@@ -137,6 +143,76 @@ const Toolbar = () => {
             </a>
           </LogoWrapper>
           <NavItemWrapper>
+          <p
+              style={{
+                textDecoration: 'none',
+                color: 'black',
+                fontSize: '16px',
+                display: 'flex',
+                alignItems: 'center',
+                position: 'relative',
+              }}
+              onClick={toggleDropdownTwo}
+              // onClick={() => window.scroll(0, 0)}
+            >
+              <div
+                style={{
+                  display: 'flex',
+                  cursor: 'pointer',
+                  alignItems: 'center',
+                }}
+              >
+                <span>Our Story</span>{' '}
+                <IoIosArrowDown
+                  style={{
+                    color: 'maroon',
+                    fontSize: '18px',
+                    marginLeft: '3px',
+                  }}
+                />
+              </div>
+              <div
+                style={{
+                  background: 'white',
+                  padding: '10px',
+                  border: '1px solid #cdcdcd',
+                  position: 'absolute',
+                  top: '55px',
+                  zIndex: '1000',
+                  display: `${dropdowntwo ? 'flex' : 'none'}`,
+                  flexDirection: 'column',
+                  width: '200px',
+                  borderRadius: '0px 0px 5px 5px',
+                }}
+              >
+                <Link
+                  to="/testimonials"
+                  style={{
+                    textDecoration: 'none',
+                    color: 'maroon',
+                    fontSize: '16px',
+                    borderBottom: '1px solid #cdcdcd',
+                  }}
+                >
+                  Results
+                </Link>
+                <Link
+                  to="/testimonials"
+                  style={{
+                    textDecoration: 'none',
+                    color: 'maroon',
+                    fontSize: '16px',
+                    borderBottom: '1px solid #cdcdcd',
+                  }}
+                >
+                  Testimonials
+                </Link>
+               
+                
+
+                
+              </div>
+            </p>
             <p
               style={{
                 textDecoration: 'none',
