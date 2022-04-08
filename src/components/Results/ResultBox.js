@@ -621,7 +621,7 @@ export default function ResultBox() {
               justifyContent:'center',
               alignItems:'center',
               textAlign:'center',
-              minWidth:'75%',
+              minWidth:{xs:'100%',md:'75%'},
               mb:'5vh',
             
         }} 
