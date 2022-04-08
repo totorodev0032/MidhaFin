@@ -2,6 +2,7 @@ import React from "react";
 import styled from "@emotion/styled";
 import CourseForm from "../CourseForm/CourseForm";
 import backImg from "../../images/heroBack2.png";
+import { Link } from "react-router-dom";
 
 const ContactWrapper = styled.div`
   display: flex;
@@ -105,6 +106,10 @@ const ButtonWrapper = styled.div`
   justify-content: start;
   width: 100%;
   align-items: center;
+
+  .link {
+    text-decoration: none;
+  }
 `;
 
 const ContactUs = () => {
@@ -123,7 +128,9 @@ const ContactUs = () => {
               approach to the exam.
             </p>
             <ButtonWrapper>
-              <ButtonPrimary>what our students say</ButtonPrimary>
+              <Link to="/testimonials" className="link">
+                <ButtonPrimary>what our students say</ButtonPrimary>
+              </Link>
             </ButtonWrapper>
           </ContactLeft>
           <ContactRight>
