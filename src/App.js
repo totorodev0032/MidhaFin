@@ -30,6 +30,8 @@ import StatSection from './components/StatSection';
 import ProgramForm from './components/ProgramForm';
 import TeamSection from './components/Team/TeamSection';
 import BannerSection from './components/Banner';
+import TestimonialsPage from './pages/Testimonials/TestimonialsPage';
+
 
 function App() {
   return (
@@ -69,6 +71,7 @@ function App() {
       <Route path="/frm-doubt-clearing-forum" component={Doubt} />
       <Route path="/access-till-you-pass" component={AccessTillPass} />
       <Route path="/frm-study-planner" component={StudyPlanner} />
+      <Route path="/testimonials" component={TestimonialsPage} />
 
       <Route path="/frm-mock-tests" component={MockTest} />
       <Route path="/blogs" component={BlogPage} />

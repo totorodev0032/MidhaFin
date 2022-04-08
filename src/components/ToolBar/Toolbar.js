@@ -81,13 +81,13 @@ const MenuWrapper = styled.div`
 const NavItemWrapper = styled.div`
   display: flex;
   margin-top: 15px;
-  width: 40%;
+  width: 50%;
   align-items: center;
   height: 100%;
   color: black;
   justify-content: space-around;
   @media screen and (max-width: 1000px) {
-    width: 40%;
+    width: 55%;
   }
   @media screen and (max-width: 800px) {
     display: none;
@@ -124,6 +124,12 @@ const Toolbar = () => {
   const toggleDropdown = () => {
     setDropdown(!dropdown);
   };
+
+  const [dropdowntwo, setDropdownTwo] = useState(false);
+  const toggleDropdownTwo = () => {
+    setDropdownTwo(!dropdowntwo);
+  };
+
   return (
     <>
       <ToolbarLayout>
@@ -137,6 +143,76 @@ const Toolbar = () => {
             </a>
           </LogoWrapper>
           <NavItemWrapper>
+          <p
+              style={{
+                textDecoration: 'none',
+                color: 'black',
+                fontSize: '16px',
+                display: 'flex',
+                alignItems: 'center',
+                position: 'relative',
+              }}
+              onClick={toggleDropdownTwo}
+              // onClick={() => window.scroll(0, 0)}
+            >
+              <div
+                style={{
+                  display: 'flex',
+                  cursor: 'pointer',
+                  alignItems: 'center',
+                }}
+              >
+                <span>Our Story</span>{' '}
+                <IoIosArrowDown
+                  style={{
+                    color: 'maroon',
+                    fontSize: '18px',
+                    marginLeft: '1px',
+                  }}
+                />
+              </div>
+              <div
+                style={{
+                  background: 'white',
+                  padding: '10px',
+                  border: '1px solid #cdcdcd',
+                  position: 'absolute',
+                  top: '55px',
+                  zIndex: '1000',
+                  display: `${dropdowntwo ? 'flex' : 'none'}`,
+                  flexDirection: 'column',
+                  width: '200px',
+                  borderRadius: '0px 0px 5px 5px',
+                }}
+              >
+                <Link
+                  to="/testimonials"
+                  style={{
+                    textDecoration: 'none',
+                    color: 'maroon',
+                    fontSize: '16px',
+                    borderBottom: '1px solid #cdcdcd',
+                  }}
+                >
+                  Results
+                </Link>
+                <Link
+                  to="/testimonials"
+                  style={{
+                    textDecoration: 'none',
+                    color: 'maroon',
+                    fontSize: '16px',
+                    borderBottom: '1px solid #cdcdcd',
+                  }}
+                >
+                  Testimonials
+                </Link>
+               
+                
+
+                
+              </div>
+            </p>
             <p
               style={{
                 textDecoration: 'none',
@@ -243,6 +319,7 @@ const Toolbar = () => {
                 textDecoration: 'none',
                 color: 'black',
                 fontSize: '16px',
+                marginRight:'0.2px'
               }}
             >
               Our Team
