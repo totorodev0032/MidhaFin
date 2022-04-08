@@ -111,16 +111,16 @@ const BannerSection = () => {
       <BannerWrapper>
         <BannerContainer>
           <p className="heading">Highest Success rate of FRM Globally</p>
-          <Link
-            to="/programmes/frm"
-            className="link"
-            onClick={() => window.scroll(0, 0)}
-          >
+          
             <ButtonWrapper>
-              <ButtonPrimary>Our Results</ButtonPrimary>
-              <ButtonSecondary>Our Testimonials</ButtonSecondary>
+              <Link to="/results" className="link"  onClick={() => window.scroll(0, 0)}>
+                <ButtonPrimary>Our Results</ButtonPrimary>
+              </Link>
+              <Link to="/testimonials" className="link"  onClick={() => window.scroll(0, 0)}>
+                <ButtonSecondary>Our Testimonials</ButtonSecondary>
+              </Link>
             </ButtonWrapper>
-          </Link>
+          
         </BannerContainer>
       </BannerWrapper>
     </>
