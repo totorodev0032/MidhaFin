@@ -11,7 +11,7 @@ const BannerWrapper = styled.div`
   align-items: center;
   margin-top: 30px;
 
-  @media (max-width: 496px) {
+  @media (max-width: 1046px) {
     height: auto;
   }
 `;
@@ -22,7 +22,6 @@ const BannerContainer = styled.div`
   width: 80%;
   height: 30vh;
   background: url(${footerImage});
-  background-size: cover;
   border-radius: 10px;
   justify-content: center;
   align-items: center;
@@ -31,18 +30,19 @@ const BannerContainer = styled.div`
     color: white;
     font-weight: 600;
     font-size: 3rem;
+    padding: 10px;
   }
 
   .link {
     text-decoration: none;
   }
 
-  @media (max-width: 496px) {
+  @media (max-width: 1046px) {
     height: auto;
     flex-direction: column;
   }
 
-  @media (max-width: 496px) {
+  @media (max-width: 646px) {
     .heading {
       font-size: 2rem;
       text-align: center;
@@ -66,9 +66,10 @@ const ButtonPrimary = styled.button`
   cursor: pointer;
   font-size: 20px;
   border-radius: 5px;
-  @media screen and (max-width: 500px) {
+  margin-bottom: 20px;
+  @media screen and (max-width: 646px) {
     width: 250px;
-    margin-bottom: 20px;
+    margin-bottom: 0;
   }
 `;
 
@@ -87,9 +88,9 @@ const ButtonSecondary = styled.button`
   cursor: pointer;
   font-size: 20px;
   border-radius: 5px;
-  @media screen and (max-width: 500px) {
+  margin-bottom: 20px;
+  @media screen and (max-width: 646px) {
     width: 250px;
-    margin-bottom: 20px;
     margin-top: 0;
   }
 `;

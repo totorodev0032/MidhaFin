@@ -88,19 +88,16 @@ const ButtonPrimary = styled.button`
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #6a1b1a;
+  color: #fff;
   border: none;
   margin-top: 30px;
-  background-color: #d6a468;
+  background-color: #d29b59;
   border: 2px solid #6a1b1a;
-  font-weight: 600;
+  font-weight: 500;
   cursor: pointer;
   font-size: 20px;
   border-radius: 5px;
-  @media screen and (max-width: 500px) {
-    width: 250px;
-    margin-bottom: 20px;
-  }
+  margin-bottom: 20px;
 `;
 
 const ButtonWrapper = styled.div`
