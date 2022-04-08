@@ -16,6 +16,9 @@ import { Link } from 'react-router-dom';
 import * as BiIcons from 'react-icons/bi';
 import * as AiIcons from 'react-icons/ai';
 import * as FaIcons from 'react-icons/fa';
+import { RiUserStarFill} from "react-icons/ri";
+
+
 
 const useStyles = makeStyles({
   list: {
@@ -81,6 +84,8 @@ export default function Drawerright() {
             </a>
           </ListItem>
 
+         
+         
           <ListItem>
             <ListItemIcon>
               <AiIcons.AiOutlineContacts style={{ fontSize: '25px' }} />
@@ -102,6 +107,28 @@ export default function Drawerright() {
               style={{ color: 'black', textDecoration: 'none' }}
             >
               <ListItemText primary="Blogs" />
+            </Link>
+          </ListItem>
+          <ListItem>
+            <ListItemIcon>
+            <AiIcons.AiOutlineStar style={{ fontSize: '25px' }} />
+            </ListItemIcon>
+            <Link
+              to="/testimonials"
+              style={{ color: 'black', textDecoration: 'none' }}
+            >
+              <ListItemText primary="Results" />
+            </Link>
+          </ListItem>
+          <ListItem>
+            <ListItemIcon>
+              <RiUserStarFill style={{ fontSize: '25px' }} />
+            </ListItemIcon>
+            <Link
+              to="/testimonials"
+              style={{ color: 'black', textDecoration: 'none' }}
+            >
+              <ListItemText primary="Testimonials" />
             </Link>
           </ListItem>
         </List>

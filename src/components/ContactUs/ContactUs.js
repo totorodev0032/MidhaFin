@@ -1,7 +1,7 @@
-import React from 'react';
-import styled from '@emotion/styled';
-import CourseForm from '../CourseForm/CourseForm';
-import backImg from '../../images/heroBack2.png';
+import React from "react";
+import styled from "@emotion/styled";
+import CourseForm from "../CourseForm/CourseForm";
+import backImg from "../../images/heroBack2.png";
 
 const ContactWrapper = styled.div`
   display: flex;
@@ -82,6 +82,31 @@ const ContactRight = styled.div`
   }
 `;
 
+const ButtonPrimary = styled.button`
+  width: 250px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  border: none;
+  margin-top: 30px;
+  background-color: #d29b59;
+  border: 2px solid #6a1b1a;
+  font-weight: 500;
+  cursor: pointer;
+  font-size: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+`;
+
+const ButtonWrapper = styled.div`
+  display: flex;
+  justify-content: start;
+  width: 100%;
+  align-items: center;
+`;
+
 const ContactUs = () => {
   return (
     <>
@@ -97,6 +122,9 @@ const ContactUs = () => {
               concepts, but also the paper – ensuring that they take the right
               approach to the exam.
             </p>
+            <ButtonWrapper>
+              <ButtonPrimary>what our students say</ButtonPrimary>
+            </ButtonWrapper>
           </ContactLeft>
           <ContactRight>
             <CourseForm title="Contact Us" />

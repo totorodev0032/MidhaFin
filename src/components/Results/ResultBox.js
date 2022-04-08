@@ -1,5 +1,6 @@
-import { Card, CardContent,Box, CardHeader, Avatar } from '@mui/material';
+import { Card, CardContent,Box, CardHeader, Avatar, Grid, Paper } from '@mui/material';
 import Typography from '@mui/material/Typography';
+import { SiLinkedin } from 'react-icons/si';
 import React from 'react';
 
 const resultsData = [
@@ -121,8 +122,10 @@ export default function ResultBox() {
             flexDirection:'column',
             justifyContent:'center',
             alignItems:'center',
-            mb:2,
-            ml:1,
+            mb:4,
+            ml:20,
+            border:0.5,
+            rounded:5,
         }} 
         
         >
@@ -131,10 +134,42 @@ export default function ResultBox() {
             {element.name}
         </CardContent>
         <CardContent>
-            {element.description}
-        </CardContent>
-    </Card>
-    </Box>
+            {/* {element.description} */}
+
+            <Box sx={{
+                display:'flex',
+                flexDirection:'column',
+                justifyContent:'center',
+                alignItems:'center',
+                }}>
+                <Typography variant="subtitle2" gutterBottom>
+                    <span>FRM Part 1</span>
+                </Typography>
+                <a href='https://www.linkedin.com/in/ribhatt/'>
+                <SiLinkedin size={40}/>
+                </a>
+            </Box>
+            
+         </CardContent>
+     </Card>
+     </Box>
+    // <Grid sx={{ flexGrow: 1 }} container spacing={2}>
+    //     <Grid item xs={12}>
+    //     <Grid container justifyContent="center" spacing={spacing}>
+    //       {[0, 1, 2].map((value) => (
+    //         <Grid key={value} item>
+    //           <Paper
+    //             sx={{
+    //               height: 140,
+    //               width: 100,
+    //               backgroundColor: (theme) =>
+    //                 theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
+    //             }}
+    //           />
+    //         </Grid>
+    //       ))}
+    //     </Grid>
+    // </Grid>
     ))}
     </>
   )

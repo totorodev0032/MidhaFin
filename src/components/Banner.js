@@ -1,7 +1,7 @@
-import React from 'react';
-import styled from '@emotion/styled';
-import footerImage from '../images/footermask.png';
-import { Link } from 'react-router-dom';
+import React from "react";
+import styled from "@emotion/styled";
+import footerImage from "../images/footermask.png";
+import { Link } from "react-router-dom";
 
 const BannerWrapper = styled.div`
   display: flex;
@@ -11,7 +11,7 @@ const BannerWrapper = styled.div`
   align-items: center;
   margin-top: 30px;
 
-  @media (max-width: 496px) {
+  @media (max-width: 1046px) {
     height: auto;
   }
 `;
@@ -30,18 +30,19 @@ const BannerContainer = styled.div`
     color: white;
     font-weight: 600;
     font-size: 3rem;
+    padding: 10px;
   }
 
   .link {
     text-decoration: none;
   }
 
-  @media (max-width: 496px) {
+  @media (max-width: 1046px) {
     height: auto;
     flex-direction: column;
   }
 
-  @media (max-width: 496px) {
+  @media (max-width: 646px) {
     .heading {
       font-size: 2rem;
       text-align: center;
@@ -51,25 +52,58 @@ const BannerContainer = styled.div`
 `;
 
 const ButtonPrimary = styled.button`
-  width: 330px;
+  width: 250px;
   height: 45px;
   display: flex;
   justify-content: center;
   align-items: center;
   color: #6a1b1a;
   border: none;
-  border-bottom: 6px solid #d6a468;
-  background-color: #d6a468;
   margin-top: 30px;
+  background-color: #d6a468;
+  border:2px solid #6a1b1a;
   font-weight: 600;
   cursor: pointer;
   font-size: 20px;
   border-radius: 5px;
-  @media screen and (max-width: 500px) {
+  margin-bottom: 20px;
+  @media screen and (max-width: 646px) {
     width: 250px;
-    margin-bottom: 20px;
+    margin-bottom: 0;
   }
 `;
+
+const ButtonSecondary = styled.button`
+  width: 250px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #6a1b1a;
+  border: none;
+  background-color: #fff;
+  border: 2px solid #d6a468 ;
+  font-weight: 600;
+  margin-top: 30px;
+  cursor: pointer;
+  font-size: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  @media screen and (max-width: 646px) {
+    width: 250px;
+    margin-top: 0;
+  }
+`;
+
+const ButtonWrapper = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
+  gap: 20px;
+`;
+
 
 const BannerSection = () => {
   return (
@@ -82,7 +116,10 @@ const BannerSection = () => {
             className="link"
             onClick={() => window.scroll(0, 0)}
           >
-            <ButtonPrimary>Explore Our Programs</ButtonPrimary>
+            <ButtonWrapper>
+              <ButtonPrimary>Our Results</ButtonPrimary>
+              <ButtonSecondary>Our Testimonials</ButtonSecondary>
+            </ButtonWrapper>
           </Link>
         </BannerContainer>
       </BannerWrapper>

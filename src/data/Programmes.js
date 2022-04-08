@@ -390,17 +390,18 @@ export const Programmes = [
 
         instructors: [
           {
-            name: 'Micky Midha',
-            image: MickyImage,
-            description:
-              'A Computer Science Engineer, with a LLB degree, who is both FRM certified and a CFA charter holder, Micky Midha has 8+ years of experience in FRM and CFA training. He has been a trainer at the Bombay Stock Exchange Institute Limited and a guest faculty/freelance trainer/keynote speaker at premier B-schools including IIM Ranchi, ISM, etc. He is a mentor, with a passion for teaching, and an industry expert with deep understanding of the finance field. ',
-          },
-          {
             name: 'Shubham Swaraj',
             image: ShubhamImage,
             description:
               'Shubham Swaraj is a data science degree holder from IIIT Bengaluru and a Masters Candidate in data science from Liverpool John Moore University (London). With his expertise in using software packages to show the practical applications of the concepts, he has been teaching and training industry experts and professionals in risk management and statistics for several years. ',
           },
+          {
+            name: 'Micky Midha',
+            image: MickyImage,
+            description:
+              'A Computer Science Engineer, with a LLB degree, who is both FRM certified and a CFA charter holder, Micky Midha has 8+ years of experience in FRM and CFA training. He has been a trainer at the Bombay Stock Exchange Institute Limited and a guest faculty/freelance trainer/keynote speaker at premier B-schools including IIM Ranchi, ISM, etc. He is a mentor, with a passion for teaching, and an industry expert with deep understanding of the finance field. ',
+          },
+          
         ],
 
         USP: ['Live Classes', '2000+ questions', 'Mentoring'],
@@ -542,12 +543,12 @@ export const Programmes = [
           'Completing the course at the students timeline',
         ],
         instructors: [
-          {
-            name: 'Micky Midha',
-            image: MickyImage,
-            description:
-              'A Computer Science Engineer, with a LLB degree, who is both FRM certified and a CFA charter holder, Micky Midha has 8+ years of experience in FRM and CFA training. He has been a trainer at the Bombay Stock Exchange Institute Limited and a guest faculty/freelance trainer/keynote speaker at premier B-schools including IIM Ranchi, ISM, etc. He is a mentor, with a passion for teaching, and an industry expert with deep understanding of the finance field. ',
-          },
+          // {
+          //   name: 'Micky Midha',
+          //   image: MickyImage,
+          //   description:
+          //     'A Computer Science Engineer, with a LLB degree, who is both FRM certified and a CFA charter holder, Micky Midha has 8+ years of experience in FRM and CFA training. He has been a trainer at the Bombay Stock Exchange Institute Limited and a guest faculty/freelance trainer/keynote speaker at premier B-schools including IIM Ranchi, ISM, etc. He is a mentor, with a passion for teaching, and an industry expert with deep understanding of the finance field. ',
+          // },
           {
             name: 'Shubham Swaraj',
             image: ShubhamImage,
@@ -697,12 +698,12 @@ export const Programmes = [
             description:
               'A Computer Science Engineer, with a LLB degree, who is both FRM certified and a CFA charter holder, Micky Midha has 8+ years of experience in FRM and CFA training. He has been a trainer at the Bombay Stock Exchange Institute Limited and a guest faculty/freelance trainer/keynote speaker at premier B-schools including IIM Ranchi, ISM, etc. He is a mentor, with a passion for teaching, and an industry expert with deep understanding of the finance field. ',
           },
-          {
-            name: 'Vish Iyer',
-            image: VishImage,
-            description:
-              'Vishwanathan R Iyer (Vish) is a seasoned finance professional, and a CPA Australia member, possessing over 15+ years of work experience across various finance functions including financial planning & analysis (FP&A), capital planning, stress testing and financial risk & control. He has a strong passion for teaching and great industry insights, making him the perfect mentor to guide our students.',
-          },
+          // {
+          //   name: 'Vish Iyer',
+          //   image: VishImage,
+          //   description:
+          //     'Vishwanathan R Iyer (Vish) is a seasoned finance professional, and a CPA Australia member, possessing over 15+ years of work experience across various finance functions including financial planning & analysis (FP&A), capital planning, stress testing and financial risk & control. He has a strong passion for teaching and great industry insights, making him the perfect mentor to guide our students.',
+          // },
         ],
         USP: ['Own Pace', 'Quality Material', 'Doubt forum'],
 
@@ -911,12 +912,12 @@ export const Programmes = [
             description:
               'A Computer Science Engineer, with a LLB degree, who is both FRM certified and a CFA charter holder, Micky Midha has 8+ years of experience in FRM and CFA training. He has been a trainer at the Bombay Stock Exchange Institute Limited and a guest faculty/freelance trainer/keynote speaker at premier B-schools including IIM Ranchi, ISM, etc. He is a mentor, with a passion for teaching, and an industry expert with deep understanding of the finance field. ',
           },
-          {
-            name: 'Vish Iyer',
-            image: VishImage,
-            description:
-              'Vishwanathan R Iyer (Vish) is a seasoned finance professional, and a CPA Australia member, possessing over 15+ years of work experience across various finance functions including financial planning & analysis (FP&A), capital planning, stress testing and financial risk & control. He has a strong passion for teaching and great industry insights, making him the perfect mentor to guide our students.',
-          },
+          // {
+          //   name: 'Vish Iyer',
+          //   image: VishImage,
+          //   description:
+          //     'Vishwanathan R Iyer (Vish) is a seasoned finance professional, and a CPA Australia member, possessing over 15+ years of work experience across various finance functions including financial planning & analysis (FP&A), capital planning, stress testing and financial risk & control. He has a strong passion for teaching and great industry insights, making him the perfect mentor to guide our students.',
+          // },
         ],
 
         USP: ['24/7 support', 'Relevant mocks', '2000+ questions'],
@@ -1113,17 +1114,18 @@ export const Programmes = [
 
         instructors: [
           {
-            name: 'Micky Midha',
-            image: MickyImage,
-            description:
-              'A Computer Science Engineer, with a LLB degree, who is both FRM certified and a CFA charter holder, Micky Midha has 8+ years of experience in FRM and CFA training. He has been a trainer at the Bombay Stock Exchange Institute Limited and a guest faculty/freelance trainer/keynote speaker at premier B-schools including IIM Ranchi, ISM, etc. He is a mentor, with a passion for teaching, and an industry expert with deep understanding of the finance field. ',
-          },
-          {
             name: 'Vish Iyer',
             image: VishImage,
             description:
               'Vishwanathan R Iyer (Vish) is a seasoned finance professional, and a CPA Australia member, possessing over 15+ years of work experience across various finance functions including financial planning & analysis (FP&A), capital planning, stress testing and financial risk & control. He has a strong passion for teaching and great industry insights, making him the perfect mentor to guide our students.',
           },
+          {
+            name: 'Micky Midha',
+            image: MickyImage,
+            description:
+              'A Computer Science Engineer, with a LLB degree, who is both FRM certified and a CFA charter holder, Micky Midha has 8+ years of experience in FRM and CFA training. He has been a trainer at the Bombay Stock Exchange Institute Limited and a guest faculty/freelance trainer/keynote speaker at premier B-schools including IIM Ranchi, ISM, etc. He is a mentor, with a passion for teaching, and an industry expert with deep understanding of the finance field. ',
+          },
+          
         ],
         USP: ['Live Classes', '2000+ questions', 'Mentoring'],
 
@@ -2348,17 +2350,18 @@ export const Programmes = [
         ],
         instructors: [
           {
-            name: 'Micky Midha',
-            image: MickyImage,
-            description:
-              'A Computer Science Engineer, with a LLB degree, who is both FRM certified and a CFA charter holder, Micky Midha has 8+ years of experience in FRM and CFA training. He has been a trainer at the Bombay Stock Exchange Institute Limited and a guest faculty/freelance trainer/keynote speaker at premier B-schools including IIM Ranchi, ISM, etc. He is a mentor, with a passion for teaching, and an industry expert with deep understanding of the finance field. ',
-          },
-          {
             name: 'Shubham Swaraj',
             image: ShubhamImage,
             description:
               'Shubham Swaraj is a data science degree holder from IIIT Bengaluru and a Masters Candidate in data science from Liverpool John Moore University (London). With his expertise in using software packages to show the practical applications of the concepts, he has been teaching and training industry experts and professionals in risk management and statistics for several years. ',
           },
+          {
+            name: 'Micky Midha',
+            image: MickyImage,
+            description:
+              'A Computer Science Engineer, with a LLB degree, who is both FRM certified and a CFA charter holder, Micky Midha has 8+ years of experience in FRM and CFA training. He has been a trainer at the Bombay Stock Exchange Institute Limited and a guest faculty/freelance trainer/keynote speaker at premier B-schools including IIM Ranchi, ISM, etc. He is a mentor, with a passion for teaching, and an industry expert with deep understanding of the finance field. ',
+          },
+          
         ],
         USP: ['24/7 support', 'Relevant mocks', '2000+ questions'],
 
