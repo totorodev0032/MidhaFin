@@ -128,7 +128,7 @@ const ContactUs = () => {
               approach to the exam.
             </p>
             <ButtonWrapper>
-              <Link to="/testimonials" className="link">
+              <Link to="/testimonials" className="link"  onClick={() => window.scroll(0, 0)}>
                 <ButtonPrimary>what our students say</ButtonPrimary>
               </Link>
             </ButtonWrapper>
