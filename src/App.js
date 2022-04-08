@@ -30,8 +30,12 @@ import StatSection from './components/StatSection';
 import ProgramForm from './components/ProgramForm';
 import TeamSection from './components/Team/TeamSection';
 import BannerSection from './components/Banner';
+
+import ResultsPage from './pages/Results/ResultsPage';
+
 import TestimonialsPage from './pages/Testimonials/TestimonialsPage';
 
+ 
 
 function App() {
   return (
@@ -79,6 +83,8 @@ function App() {
       <Route path="/privacy-policy" component={Privacy} />
       <Route path="/refund-and-cancellation-policy" component={Refund} />
       <Route path="/about-us" component={About} />
+      
+      <Route path="/results" component={ResultsPage} />
 
       <Route path="/programmes/:ids" component={ProgramPage} exact />
 

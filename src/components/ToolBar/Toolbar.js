@@ -186,7 +186,7 @@ const Toolbar = () => {
                 }}
               >
                 <Link
-                  to="/testimonials"
+                  to="/results"
                   style={{
                     textDecoration: 'none',
                     color: 'maroon',
