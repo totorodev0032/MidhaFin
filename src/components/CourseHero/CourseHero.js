@@ -328,7 +328,7 @@ const CourseHero = ({
                 <ButtonContainer>
                   {formUrl ? (
                     <Link
-                      to={`/programmes/${category}/${id}/enroll`}
+                      to={`/programs/${category}/${id}/enroll`}
                       style={{ textDecoration: 'none' }}
                     >
                       <ButtonPrimary>Enroll Now</ButtonPrimary>

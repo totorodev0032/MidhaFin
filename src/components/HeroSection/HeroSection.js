@@ -252,15 +252,15 @@ const HeroSection = () => {
           </HeroLeft>
           <HeroRight>
             <CategoryContainer>
-              <Link to="/programmes/frm" className="link">
+              <Link to="/programs/frm" className="link">
                 <SectionBox>FRM</SectionBox>
               </Link>
 
-              <Link to="/programmes/prm" className="link">
+              <Link to="/programs/prm" className="link">
                 <SectionBox>PRM</SectionBox>
               </Link>
 
-              <Link to="/programmes/cfa" className="link">
+              <Link to="/programs/cfa" className="link">
                 <SectionBox>CFA</SectionBox>
               </Link>
 

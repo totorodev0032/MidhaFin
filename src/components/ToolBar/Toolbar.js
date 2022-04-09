@@ -143,7 +143,7 @@ const Toolbar = () => {
             </a>
           </LogoWrapper>
           <NavItemWrapper>
-          <p
+            <p
               style={{
                 textDecoration: 'none',
                 color: 'black',
@@ -207,10 +207,6 @@ const Toolbar = () => {
                 >
                   Testimonials
                 </Link>
-               
-                
-
-                
               </div>
             </p>
             <p
@@ -256,7 +252,7 @@ const Toolbar = () => {
                 }}
               >
                 <Link
-                  to="/programmes/frm"
+                  to="/programs/frm"
                   style={{
                     textDecoration: 'none',
                     color: 'maroon',
@@ -267,7 +263,7 @@ const Toolbar = () => {
                   FRM
                 </Link>
                 <Link
-                  to="/programmes/prm"
+                  to="/programs/prm"
                   style={{
                     textDecoration: 'none',
                     color: 'maroon',
@@ -278,7 +274,7 @@ const Toolbar = () => {
                   PRM
                 </Link>
                 <Link
-                  to="/programmes/cfa"
+                  to="/programs/cfa"
                   style={{
                     textDecoration: 'none',
                     color: 'maroon',
@@ -319,7 +315,7 @@ const Toolbar = () => {
                 textDecoration: 'none',
                 color: 'black',
                 fontSize: '16px',
-                marginRight:'0.2px'
+                marginRight: '0.2px',
               }}
             >
               Our Team

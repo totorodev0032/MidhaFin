@@ -23,7 +23,7 @@ const ProgramPage = ({ match }) => {
                     {' '}
                     <ProgramUp>
                       <Link
-                        to={`/programmes/${ProgramList.id}/${p.id}`}
+                        to={`/programs/${ProgramList.id}/${p.id}`}
                         className="link"
                       >
                         <p> {p.title} </p>{' '}
@@ -58,7 +58,7 @@ const ProgramPage = ({ match }) => {
                         </p>
                       ) : null}
                       <Link
-                        to={`/programmes/${ProgramList.id}/${p.id}`}
+                        to={`/programs/${ProgramList.id}/${p.id}`}
                         className="link"
                         onClick={() => window.scroll(0, 0)}
                       >
@@ -86,7 +86,7 @@ const ProgramPage = ({ match }) => {
                       {' '}
                       <ProgramUp>
                         <Link
-                          to={`/programmes/${ProgramList.id}/${p.id}`}
+                          to={`/programs/${ProgramList.id}/${p.id}`}
                           className="link"
                         >
                           <p> {p.title} </p>{' '}
@@ -120,7 +120,7 @@ const ProgramPage = ({ match }) => {
                           Rs. {p.priceR} / USD {p.priceU}{' '}
                         </p>
                         <Link
-                          to={`/programmes/${ProgramList.id}/${p.id}`}
+                          to={`/programs/${ProgramList.id}/${p.id}`}
                           className="link"
                           onClick={() => window.scroll(0, 0)}
                         >
@@ -149,7 +149,7 @@ const ProgramPage = ({ match }) => {
                       {' '}
                       <ProgramUp>
                         <Link
-                          to={`/programmes/${ProgramList.id}/${p.id}`}
+                          to={`/programs/${ProgramList.id}/${p.id}`}
                           className="link"
                         >
                           <p> {p.title} </p>{' '}
@@ -182,7 +182,7 @@ const ProgramPage = ({ match }) => {
                           Rs. {p.priceR} / USD {p.priceU}{' '}
                         </p>
                         <Link
-                          to={`/programmes/${ProgramList.id}/${p.id}`}
+                          to={`/programs/${ProgramList.id}/${p.id}`}
                           className="link"
                           onClick={() => window.scroll(0, 0)}
                         >

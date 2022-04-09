@@ -193,7 +193,7 @@ const CourseSection = () => {
                   <p className="courseHeading"> {program.title} </p>
                   <p className="text">{program.description}</p>
                   <Link
-                    to={`/programmes/${program.id}`}
+                    to={`/programs/${program.id}`}
                     style={{ textDecoration: 'none' }}
                     onClick={() => window.scroll(0, 0)}
                   >

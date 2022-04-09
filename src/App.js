@@ -35,8 +35,6 @@ import ResultsPage from './pages/Results/ResultsPage';
 
 import TestimonialsPage from './pages/Testimonials/TestimonialsPage';
 
- 
-
 function App() {
   return (
     <Router>
@@ -83,13 +81,13 @@ function App() {
       <Route path="/privacy-policy" component={Privacy} />
       <Route path="/refund-and-cancellation-policy" component={Refund} />
       <Route path="/about-us" component={About} />
-      
+
       <Route path="/results" component={ResultsPage} />
 
-      <Route path="/programmes/:ids" component={ProgramPage} exact />
+      <Route path="/programs/:ids" component={ProgramPage} exact />
 
-      <Route path="/programmes/:ids/:id" component={ProgramDetailsPage} exact />
-      <Route path="/programmes/:ids/:id/enroll" component={ProgramForm} />
+      <Route path="/programs/:ids/:id" component={ProgramDetailsPage} exact />
+      <Route path="/programs/:ids/:id/enroll" component={ProgramForm} />
     </Router>
   );
 }
