@@ -231,6 +231,7 @@ const ProgramPageContainer = styled.div`
   }
 
   h3 {
+    font-size: 2rem;
     ${'' /* margin-left: 10%; */}
   }
 
