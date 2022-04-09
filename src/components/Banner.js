@@ -1,7 +1,7 @@
-import React from "react";
-import styled from "@emotion/styled";
-import footerImage from "../images/footermask.png";
-import { Link } from "react-router-dom";
+import React from 'react';
+import styled from '@emotion/styled';
+import footerImage from '../images/footermask.png';
+import { Link } from 'react-router-dom';
 
 const BannerWrapper = styled.div`
   display: flex;
@@ -47,6 +47,8 @@ const BannerContainer = styled.div`
       font-size: 2rem;
       text-align: center;
       padding: 10px;
+      margin-top: 30px;
+      margin-bottom: 30px;
     }
   }
 `;
@@ -61,7 +63,7 @@ const ButtonPrimary = styled.button`
   border: none;
   margin-top: 30px;
   background-color: #d6a468;
-  border:2px solid #6a1b1a;
+  border: 2px solid #6a1b1a;
   font-weight: 600;
   cursor: pointer;
   font-size: 20px;
@@ -82,7 +84,7 @@ const ButtonSecondary = styled.button`
   color: #6a1b1a;
   border: none;
   background-color: #fff;
-  border: 2px solid #d6a468 ;
+  border: 2px solid #d6a468;
   font-weight: 600;
   margin-top: 30px;
   cursor: pointer;
@@ -104,23 +106,29 @@ const ButtonWrapper = styled.div`
   gap: 20px;
 `;
 
-
 const BannerSection = () => {
   return (
     <>
       <BannerWrapper>
         <BannerContainer>
           <p className="heading">Highest Success rate of FRM Globally</p>
-          
-            <ButtonWrapper>
-              <Link to="/results" className="link"  onClick={() => window.scroll(0, 0)}>
-                <ButtonPrimary>Our Results</ButtonPrimary>
-              </Link>
-              <Link to="/testimonials" className="link"  onClick={() => window.scroll(0, 0)}>
-                <ButtonSecondary>Our Testimonials</ButtonSecondary>
-              </Link>
-            </ButtonWrapper>
-          
+
+          <ButtonWrapper>
+            <Link
+              to="/results"
+              className="link"
+              onClick={() => window.scroll(0, 0)}
+            >
+              <ButtonPrimary>Our Results</ButtonPrimary>
+            </Link>
+            <Link
+              to="/testimonials"
+              className="link"
+              onClick={() => window.scroll(0, 0)}
+            >
+              <ButtonSecondary>Our Testimonials</ButtonSecondary>
+            </Link>
+          </ButtonWrapper>
         </BannerContainer>
       </BannerWrapper>
     </>

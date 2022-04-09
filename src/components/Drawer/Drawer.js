@@ -78,7 +78,7 @@ export default function Drawerright() {
               href="/#courseID"
               style={{ color: 'black', textDecoration: 'none' }}
             >
-              <ListItemText primary="Courses" />
+              <ListItemText primary="Programs" />
             </a>
           </ListItem>
 
