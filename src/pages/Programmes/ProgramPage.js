@@ -30,11 +30,23 @@ const ProgramPage = ({ match }) => {
                       </Link>
                     </ProgramUp>
                     <ProgramPointSection>
-                      {p.cardData.map((data) => (
-                        <ul>
-                          <li> {data} </li>
-                        </ul>
-                      ))}
+                      <p
+                        style={{
+                          marginRight: 'auto',
+                          marginLeft: '20px',
+                          marginTop: 0,
+                          fontWeight: 600,
+                        }}
+                      >
+                        {p.cardData[0]}{' '}
+                      </p>
+                      {p.cardData.map((data, index) =>
+                        index !== 0 ? (
+                          <ul>
+                            <li> {data} </li>
+                          </ul>
+                        ) : null
+                      )}
                     </ProgramPointSection>
                     <ProgramDown>
                       {' '}
@@ -81,11 +93,24 @@ const ProgramPage = ({ match }) => {
                         </Link>
                       </ProgramUp>
                       <ProgramPointSection>
-                        {p.cardData.map((data) => (
-                          <ul>
-                            <li> {data} </li>
-                          </ul>
-                        ))}
+                        <p
+                          style={{
+                            marginRight: 'auto',
+                            marginLeft: '20px',
+                            marginTop: 0,
+                            fontWeight: 600,
+                          }}
+                        >
+                          {' '}
+                          {p.cardData[0]}{' '}
+                        </p>
+                        {p.cardData.map((data, index) =>
+                          index !== 0 ? (
+                            <ul>
+                              <li> {data} </li>
+                            </ul>
+                          ) : null
+                        )}
                       </ProgramPointSection>
                       <ProgramDown>
                         {' '}
@@ -131,11 +156,24 @@ const ProgramPage = ({ match }) => {
                         </Link>
                       </ProgramUp>
                       <ProgramPointSection>
-                        {p.cardData.map((data) => (
-                          <ul>
-                            <li> {data} </li>
-                          </ul>
-                        ))}
+                        <p
+                          style={{
+                            marginRight: 'auto',
+                            marginLeft: '20px',
+                            marginTop: 0,
+                            fontWeight: 600,
+                          }}
+                        >
+                          {' '}
+                          {p.cardData[0]}{' '}
+                        </p>
+                        {p.cardData.map((data, index) =>
+                          index !== 0 ? (
+                            <ul>
+                              <li> {data} </li>
+                            </ul>
+                          ) : null
+                        )}
                       </ProgramPointSection>
                       <ProgramDown>
                         <p> {p.Meta} </p>
@@ -231,7 +269,7 @@ const ProgramBox = styled.div`
 
 const ProgramUp = styled.div`
   display: flex;
-  height: 130px;
+  height: 80px;
   background: #eeeeee;
   border-bottom: 3px solid #6a1b1a;
 
@@ -246,19 +284,22 @@ const ProgramDown = styled.div`
   display: flex;
   height: auto;
   flex-direction: column;
-  margin-top: 20px;
+  border-top: 3px solid #6a1b1a;
+
+  margin-top: 30px;
+  ${'' /* background: black; */}
 
   p {
     font-size: 15px;
     color: #000000;
     font-weight: 400;
-    padding: 40px 0 0 15px;
+    padding: 10px 0 0 15px;
   }
 
   .price {
     font-size: 13px;
     color: gray;
-    font-weight: 400;
+    font-weight: 600;
     padding: 0 0 0 15px;
   }
 `;

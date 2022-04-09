@@ -33,7 +33,7 @@ export const Programmes = [
     ProgramList: [
       {
         id: 'frm1-self-paced-course',
-        title: 'Training Package I - (TP-I)',
+        title: 'Training Package 1(TP1)',
         Meta: 'BASIC Self Paced Course',
         image: FrmPart1Tp1,
         priceR: '10,850',
@@ -57,6 +57,7 @@ export const Programmes = [
         ],
 
         cardData: [
+          '',
           'Lecture Videos',
           'Complete Study Material',
           'Every doubt will be solved',
@@ -190,7 +191,7 @@ export const Programmes = [
       },
       {
         id: 'frm1-premium-self-paced-course',
-        title: 'Training Package II (TP-II)',
+        title: 'Training Package 2(TP2)',
         Meta: 'Composite Course',
         image: FrmPart1Tp2,
         priceR: '19,800',
@@ -218,7 +219,7 @@ export const Programmes = [
         ],
 
         cardData: [
-          'All features of TP-I +',
+          'All features of TP1 plus',
           'Customised Study Plan',
           'Question Bank PDFs',
           'Past Sample Paper Questions',
@@ -352,7 +353,7 @@ export const Programmes = [
       },
       {
         id: 'frm1-live-online-class',
-        title: 'Training Package III (TP - III)',
+        title: 'Training Package 3(TP3)',
         Meta: 'LIVE Online Classes',
         image: FrmPart1Tp3,
         priceR: '29700',
@@ -382,7 +383,7 @@ export const Programmes = [
           'End to End mentorship',
         ],
         cardData: [
-          'All features of TP-II +',
+          'All features of TP2 plus',
           'Live online interactive classes',
           'Direct Access to the Faculty',
           'End to End mentorship',
@@ -401,7 +402,6 @@ export const Programmes = [
             description:
               'A Computer Science Engineer, with a LLB degree, who is both FRM certified and a CFA charter holder, Micky Midha has 8+ years of experience in FRM and CFA training. He has been a trainer at the Bombay Stock Exchange Institute Limited and a guest faculty/freelance trainer/keynote speaker at premier B-schools including IIM Ranchi, ISM, etc. He is a mentor, with a passion for teaching, and an industry expert with deep understanding of the finance field. ',
           },
-          
         ],
 
         USP: ['Live Classes', '2000+ questions', 'Mentoring'],
@@ -516,7 +516,7 @@ export const Programmes = [
       },
       {
         id: 'frm1-one-to-one-live-sessions',
-        title: 'Training Package IV (TP-IV)',
+        title: 'Training Package 4(TP4)',
         Meta: 'ONE TO ONE Live Sessions',
         image: FrmPart1Tp4,
         priceR: null,
@@ -537,7 +537,7 @@ export const Programmes = [
         ],
 
         cardData: [
-          'All features of TP-III +',
+          'All features of TP2 plus',
           'One to One classes with trained faculty',
           'Full individual attention',
           'Completing the course at the students timeline',
@@ -669,7 +669,7 @@ export const Programmes = [
       },
       {
         id: 'frm2-self-paced-course',
-        title: 'Training Package I - (TP-I)',
+        title: 'Training Package 1(TP1)',
         Meta: 'BASIC Self Paced Course',
         image: FrmPart2Tp1,
         priceR: '10850',
@@ -708,6 +708,7 @@ export const Programmes = [
         USP: ['Own Pace', 'Quality Material', 'Doubt forum'],
 
         cardData: [
+          '',
           'Lecture Videos',
           'Complete Study Material',
           'Every doubt will be solved',
@@ -868,7 +869,7 @@ export const Programmes = [
       },
       {
         id: 'frm2-premium-self-paced-course',
-        title: 'Training Package II (TP-II)',
+        title: 'Training Package 2(TP2)',
         Meta: 'Composite Course',
         image: FrmPart2Tp2,
 
@@ -897,7 +898,7 @@ export const Programmes = [
         ],
 
         cardData: [
-          'All features of TP-I +',
+          'All features of TP1 plus',
           'Customised Study Plan',
           'Question Bank PDFs',
           'Past Sample Paper Questions',
@@ -1076,7 +1077,7 @@ export const Programmes = [
       },
       {
         id: 'frm2-live-online-class',
-        title: 'Training Package III (TP-III)',
+        title: 'Training Package 3(TP3)',
         Meta: 'LIVE Online Classes',
         image: FrmPart2Tp3,
         priceR: '29700',
@@ -1106,7 +1107,7 @@ export const Programmes = [
           'End to End mentorship',
         ],
         cardData: [
-          'All features of TP-II +',
+          'All features of TP2 plus',
           'Live online interactive classes',
           'Direct Access to the Faculty',
           'End to End mentorship',
@@ -1125,7 +1126,6 @@ export const Programmes = [
             description:
               'A Computer Science Engineer, with a LLB degree, who is both FRM certified and a CFA charter holder, Micky Midha has 8+ years of experience in FRM and CFA training. He has been a trainer at the Bombay Stock Exchange Institute Limited and a guest faculty/freelance trainer/keynote speaker at premier B-schools including IIM Ranchi, ISM, etc. He is a mentor, with a passion for teaching, and an industry expert with deep understanding of the finance field. ',
           },
-          
         ],
         USP: ['Live Classes', '2000+ questions', 'Mentoring'],
 
@@ -1302,7 +1302,7 @@ export const Programmes = [
       // },
       {
         id: 'frm12-combined-self-paced',
-        title: 'Training Package I (TP-I)',
+        title: 'Training Package 1(TP1)',
         Meta: 'BASIC Self Paced Course',
         image: FrmPart3Tp1,
         priceR: '19530',
@@ -1325,6 +1325,7 @@ export const Programmes = [
         ],
 
         cardData: [
+          '',
           'Lecture Videos',
           'Complete Study Material',
           'Every doubt will be solved',
@@ -1591,7 +1592,7 @@ export const Programmes = [
       },
       {
         id: 'frm12-combined-premium-self-paced',
-        title: 'Training Package II',
+        title: 'Training Package 2(TP2)',
         Meta: 'Composite Course',
         image: FrmPart3Tp2,
         priceR: '35400',
@@ -1619,7 +1620,7 @@ export const Programmes = [
         ],
 
         cardData: [
-          'All features of TP-I +',
+          'All features of TP1 plus',
           'Customised Study Plan',
           'Question Bank PDFs',
           'Past Sample Paper Questions',
@@ -1888,7 +1889,7 @@ export const Programmes = [
       },
       {
         id: 'frm12-combined-live-online-class',
-        title: 'Training Package III',
+        title: 'Training Package 3(TP3)',
         Meta: 'LIVE Online Classes',
         image: FrmPart3Tp3,
         priceR: '53400',
@@ -1918,7 +1919,7 @@ export const Programmes = [
           'End to End mentorship',
         ],
         cardData: [
-          'All features of TP-II +',
+          'All features of TP2 plus',
           'Live online interactive classes',
           'Direct Access to the Faculty',
           'End to End mentorship',
@@ -2195,7 +2196,7 @@ export const Programmes = [
     ProgramList: [
       {
         id: 'prm1-self-paced-course',
-        title: 'Training Package I (TP-I)',
+        title: 'Training Package 1(TP1)',
         Meta: 'Self Paced Course',
         image: PrmPart1Tp1,
         priceR: '19800',
@@ -2221,6 +2222,7 @@ export const Programmes = [
           'Monthly tests',
         ],
         cardData: [
+          '',
           'Customised Study Plan',
           'Lecture Videos',
           'Complete Study Material',
@@ -2312,7 +2314,7 @@ export const Programmes = [
       },
       {
         id: 'prm1-live-online-class',
-        title: 'Training Package II (TP-II)',
+        title: 'Training Package 2(TP2)',
         Meta: 'Live Online Class',
         image: PrmPart1Tp2,
 
@@ -2343,7 +2345,7 @@ export const Programmes = [
           'End to End Mentorship',
         ],
         cardData: [
-          'All features of TP-I +',
+          'All features of TP1 plus',
           'Live online Classes',
           'Direct access to Faculty',
           'End to End Mentorship',
@@ -2361,7 +2363,6 @@ export const Programmes = [
             description:
               'A Computer Science Engineer, with a LLB degree, who is both FRM certified and a CFA charter holder, Micky Midha has 8+ years of experience in FRM and CFA training. He has been a trainer at the Bombay Stock Exchange Institute Limited and a guest faculty/freelance trainer/keynote speaker at premier B-schools including IIM Ranchi, ISM, etc. He is a mentor, with a passion for teaching, and an industry expert with deep understanding of the finance field. ',
           },
-          
         ],
         USP: ['24/7 support', 'Relevant mocks', '2000+ questions'],
 
@@ -2576,7 +2577,7 @@ export const Programmes = [
     ProgramList: [
       {
         id: 'cfa1-self-paced-course',
-        title: 'Training Package I (TP-I)',
+        title: 'Training Package 1(TP1)',
         Meta: 'Self Paced Course',
         image: CfaLevel1Tp1,
         priceR: '29700',
@@ -2602,6 +2603,7 @@ export const Programmes = [
           'Monthly tests',
         ],
         cardData: [
+          '',
           'Customised Study Plan',
           'Lecture Videos',
           'Complete Study Material',
@@ -2749,7 +2751,7 @@ export const Programmes = [
 
       {
         id: 'cfa1-live-online-class',
-        title: 'Training Package II (TP-II)',
+        title: 'Training Package 2(TP2)',
         Meta: 'Live Online Class',
         image: CfaLevel1Tp2,
         priceR: '41500',
@@ -2779,7 +2781,7 @@ export const Programmes = [
           'End to End Mentorship',
         ],
         cardData: [
-          'All features of TP-I +',
+          'All features of TP1 plus',
           'Live Online Classes',
           'Direct Access to faculty',
           'End to End Mentorship',
