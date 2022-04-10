@@ -110,7 +110,7 @@ export default function Drawerright() {
               <AiIcons.AiOutlineStar style={{ fontSize: '25px' }} />
             </ListItemIcon>
             <Link
-              to="/testimonials"
+              to="/results"
               style={{ color: 'black', textDecoration: 'none' }}
             >
               <ListItemText primary="Results" />

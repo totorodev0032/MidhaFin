@@ -34,7 +34,10 @@ export default function ResultsPage() {
     <>
     <Toolbar />
     <ResultWrapper>
-      <p className='heading' >Our Results</p>
+      <p className='heading' style={{fontWeight: '600',
+    fontSize: '2rem',
+    marginTop: '30px',
+    marginBottom: '3%'}} >Our Results</p>
       <ResultContainer>
         <ResultBox />
       </ResultContainer>
