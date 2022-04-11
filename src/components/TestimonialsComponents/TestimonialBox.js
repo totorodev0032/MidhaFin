@@ -342,7 +342,7 @@ export default function TestimonialBox() {
               mb:'2vh',
               
           }}>
-            <CardHeader avatar={<Avatar sx={{width:'7vw' , height:'auto'}}     src={data.picLink}></Avatar>}></CardHeader>
+            <CardHeader avatar={<Avatar sx={{width:{xs:'22vw',md:'10vw',lg:'7vw'} , height:'auto'}}     src={data.picLink}></Avatar>}></CardHeader>
             
             <CardContent component={Typography} variant='h4' sx={{fontFamily:'inherit'}}>
             {data.name}
