@@ -81,7 +81,7 @@ const MenuWrapper = styled.div`
 const NavItemWrapper = styled.div`
   display: flex;
   margin-top: 15px;
-  width: 50%;
+  width: 60%;
   align-items: center;
   height: 100%;
   color: black;
@@ -298,7 +298,7 @@ const Toolbar = () => {
                 </Link> */}
               </div>
             </p>
-            {/* <Link
+            <Link
               to="/blogs"
               style={{
                 textDecoration: 'none',
@@ -307,7 +307,7 @@ const Toolbar = () => {
               }}
             >
               Blogs
-            </Link> */}
+            </Link>
 
             <Link
               to="/team"
@@ -321,7 +321,7 @@ const Toolbar = () => {
               Our Team
             </Link>
             <a
-              href="#contact"
+              href="/#contact"
               style={{
                 textDecoration: 'none',
                 color: 'black',

@@ -245,14 +245,18 @@ const CourseHero = ({
                 <li> {data} </li>
               ))}
             </ul>
-            <a href={enrollLink} style={{ textDecoration: 'none' }}>
-              <EnrollButton>Enroll Now</EnrollButton>
+            <Link
+              to={`/programs/${category}/${id}/enroll`}
+              style={{ textDecoration: 'none' }}
+            >
+              <ButtonPrimary>Enroll Now</ButtonPrimary>
+
               <p
                 style={{ marginTop: '10px', fontWeight: 600, color: '#6A1B1A' }}
               >
                 {/* {CourseData.certType} */}
               </p>
-            </a>
+            </Link>{' '}
           </CourseLeft>
           <CourseRightContainer>
             <CourseRight>
@@ -326,14 +330,12 @@ const CourseHero = ({
                     : null}
                 </CertificateWrapper>
                 <ButtonContainer>
-                  {formUrl ? (
-                    <Link
-                      to={`/programs/${category}/${id}/enroll`}
-                      style={{ textDecoration: 'none' }}
-                    >
-                      <ButtonPrimary>Enroll Now</ButtonPrimary>
-                    </Link>
-                  ) : null}
+                  <Link
+                    to={`/programs/${category}/${id}/enroll`}
+                    style={{ textDecoration: 'none' }}
+                  >
+                    <ButtonPrimary>Enroll Now</ButtonPrimary>
+                  </Link>
 
                   <a href="tel:9801176401" style={{ textDecoration: 'none' }}>
                     <ButtonSecondary>

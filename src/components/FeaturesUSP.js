@@ -21,6 +21,7 @@ const FeatureWrapper = styled.div`
 
 const FeatureContainer = styled.div`
   display: flex;
+  background: #ffffff;
   width: 80%;
   height: auto;
   align-items: center;
@@ -35,12 +36,17 @@ const BoxContainer = styled.div`
   height: 90px;
   align-items: center;
   cursor: pointer;
+  background: white;
 
   p {
     font-size: 18px;
     margin-left: 20px;
     color: #6a1b1a;
     font-weight: 500;
+  }
+
+  &:hover {
+    font-size: 20px;
   }
 
   @media (max-width: 496px) {
