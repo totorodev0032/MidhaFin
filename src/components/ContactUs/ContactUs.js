@@ -1,8 +1,8 @@
-import React from "react";
-import styled from "@emotion/styled";
-import CourseForm from "../CourseForm/CourseForm";
-import backImg from "../../images/heroBack2.png";
-import { Link } from "react-router-dom";
+import React from 'react';
+import styled from '@emotion/styled';
+import CourseForm from '../CourseForm/CourseForm';
+import backImg from '../../images/heroBack2.png';
+import { Link } from 'react-router-dom';
 
 const ContactWrapper = styled.div`
   display: flex;
@@ -97,7 +97,7 @@ const ButtonPrimary = styled.button`
   font-weight: 500;
   cursor: pointer;
   font-size: 20px;
-  border-radius: 5px;
+  border-radius: 10px;
   margin-bottom: 20px;
 `;
 
@@ -128,7 +128,11 @@ const ContactUs = () => {
               approach to the exam.
             </p>
             <ButtonWrapper>
-              <Link to="/testimonials" className="link"  onClick={() => window.scroll(0, 0)}>
+              <Link
+                to="/testimonials"
+                className="link"
+                onClick={() => window.scroll(0, 0)}
+              >
                 <ButtonPrimary>what our students say</ButtonPrimary>
               </Link>
             </ButtonWrapper>
