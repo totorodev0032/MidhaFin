@@ -254,7 +254,7 @@ const Footer = () => {
                   </a>
                 </SocialBox>
               </div>
-              <p>© 2021 MidhaPro</p>
+              <p>© 2022 MidhaFin</p>
               <a
                 href="tel:9155199555"
                 style={{
