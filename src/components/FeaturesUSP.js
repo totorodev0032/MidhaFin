@@ -117,8 +117,9 @@ const FeaturesUSP = () => {
       <FeatureWrapper>
         <FeatureContainer>
           {FeatureData.map((data) => (
-            <Link
-              to={data.link}
+            <a
+              href={data.link}
+              // target="_blank" 
               style={{ textDecoration: 'none', color: '#6a1b1a' }}
               onClick={() => window.scroll(0, 0)}
             >
@@ -128,7 +129,7 @@ const FeaturesUSP = () => {
                 </CircleBox>
                 <p>{data.title}</p>
               </BoxContainer>
-            </Link>
+            </a>
           ))}
         </FeatureContainer>
       </FeatureWrapper>
