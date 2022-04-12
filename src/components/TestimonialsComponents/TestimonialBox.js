@@ -349,8 +349,9 @@ export default function TestimonialBox() {
             </CardContent>
             <CardContent component={Typography} variant='body1'  sx={{fontFamily:'inherit'}} >{data.promoLines}</CardContent>
             <CardContent>
-           {data.linkedinLink && <Link
-            to={data.linkedinLink}
+           {data.linkedinLink && <a
+            target="_blank" 
+            href={data.linkedinLink}
             className="link"
             onClick={() => window.scroll(0, 0)}
             style={{textDecoration:'none'}}
@@ -366,10 +367,11 @@ style={{
  }}
             
             >LinkedIn Post</p>
-          </Link> } 
+          </a> } 
            
-        {data.quoraReview &&  <Link
-            to={data.quoraReview}
+        {data.quoraReview &&  <a
+          target="_blank" 
+            href={data.quoraReview}
             className="link"
             onClick={() => window.scroll(0, 0)}
             style={{textDecoration:'none'}}
@@ -381,7 +383,7 @@ style={{
                fontWeight: '600',
 
             }}>Quora Post</p>
-          </Link>}
+          </a>}
 
             <h3 style={{fontFamily:'inherit'}}>{data.remarks}</h3>
             </CardContent>

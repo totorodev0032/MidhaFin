@@ -164,7 +164,7 @@ function CertificationSection({ enrollLink }) {
             </CertificateContent>
           </CertificateData>
           <CertificateImage>
-            <a href={enrollLink} style={{ textDecoration: 'none' }}>
+            <a  href={enrollLink} style={{ textDecoration: 'none' }}>
               <ButtonPrimary>Get Certified &rarr;</ButtonPrimary>
             </a>
           </CertificateImage>

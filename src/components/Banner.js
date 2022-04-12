@@ -114,20 +114,22 @@ const BannerSection = () => {
           <p className="heading">Highest Success rate of FRM Globally</p>
 
           <ButtonWrapper>
-            <Link
-              to="/results"
+            <a
+              href="/results"
+              // target="_blank" 
               className="link"
               onClick={() => window.scroll(0, 0)}
             >
               <ButtonPrimary>Our Results</ButtonPrimary>
-            </Link>
-            <Link
-              to="/testimonials"
+            </a>
+            <a
+              href="/testimonials"
+              // target="_blank" 
               className="link"
               onClick={() => window.scroll(0, 0)}
             >
               <ButtonSecondary>Our Testimonials</ButtonSecondary>
-            </Link>
+            </a>
           </ButtonWrapper>
         </BannerContainer>
       </BannerWrapper>

@@ -9,13 +9,13 @@ const resultsData =[
         image:'',
         Names: "Prithwjit Ghosh",
         Part: "FRM Part 1",
-        LinkedIn:"Not Available",
+        LinkedIn:null,
       },
       {
         image:'',
         Names: "Tienis",
         Part: "FRM Part 1",
-        LinkedIn:"Not Available"
+        LinkedIn:null,
       },
       {
         image:'https://res.cloudinary.com/floxus-education/image/upload/v1649451587/midhaFinResults/Arijit_Ghosh_zm6uqd.jpg',
@@ -33,7 +33,7 @@ const resultsData =[
         image:'',
         Names: "Aaditya Agrawal",
         Part: "FRM Part 1",
-        LinkedIn: "Doubtful"
+        LinkedIn: null,
       },
       {
         image:'',
@@ -51,13 +51,13 @@ const resultsData =[
         image:'',
         Names: "Manjunath Kattimani",
         Part: "FRM Part 1",
-        LinkedIn: "Not Available"
+        LinkedIn: null,
       },
       {
         image:'',
         Names: "Shiba Behera",
         Part: "FRM Part 1",
-        LinkedIn: "Not Available"
+        LinkedIn: null,
       },
       {
         image:'',
@@ -101,21 +101,21 @@ const resultsData =[
         Names: "Deshna Sheth",
         Part: "FRM Part 1",
         Year: "May-19",
-        LinkedIn: "Not Available"
+        LinkedIn: null,
       },
       {
         image:'',
         Names: "Himanshi Shah",
         Part: "FRM Part 1",
         Year: "May-19",
-        LinkedIn: "Not Available"
+        LinkedIn: null,
       },
       {
         image:'',
         Names: "Yash Kanoi",
         Part: "FRM Part 1",
         Year: "May-19",
-        LinkedIn: "Not Available"
+        LinkedIn: null,
       },
       {
         image:'https://res.cloudinary.com/floxus-education/image/upload/v1649451588/midhaFinResults/Deep_Nagda_ffc75g.jpg',
@@ -129,7 +129,7 @@ const resultsData =[
         Names: "Geetanjali Jangir",
         Part: "FRM Part 1",
         Year: "May-19",
-        LinkedIn: "Not Available"
+        LinkedIn: null,
       },
       {
         image:'https://res.cloudinary.com/floxus-education/image/upload/v1649311321/MidhaFinTestimonials/Naresh_Gaur_whf6zr.jpg',
@@ -143,7 +143,7 @@ const resultsData =[
         Names: "Mohammad Awad",
         Part: "FRM Part 1",
         Year: "May-19",
-        LinkedIn: "Not Available"
+        LinkedIn: null,
       },
       {
         image:'https://res.cloudinary.com/floxus-education/image/upload/v1649451602/midhaFinResults/Upanshu_Gaharana_ojufce.jpg',
@@ -157,7 +157,7 @@ const resultsData =[
         Names: "Tushar Prakash",
         Part: "FRM Part 1",
         Year: "Nov-19",
-        LinkedIn: "Not Available"
+        LinkedIn: null,
       },
       {
         image:'https://res.cloudinary.com/floxus-education/image/upload/v1649451594/midhaFinResults/Mahak_Bagaria_hdar0s.jpg',
@@ -171,7 +171,7 @@ const resultsData =[
         Names: "Abhishek Arora",
         Part: "FRM Part 1",
         Year: "Nov-19",
-        LinkedIn: "Not Available"
+        LinkedIn: null,
       },
       {
         image:'https://res.cloudinary.com/floxus-education/image/upload/v1649451595/midhaFinResults/Nikhil_Nair_yap04c.jpg',
@@ -241,7 +241,7 @@ const resultsData =[
         Names: "Vikram Soman",
         Part: "FRM Part 1",
         Year: null,
-        LinkedIn: "Not Available"
+        LinkedIn:null,
       },
       {
         image:'https://res.cloudinary.com/floxus-education/image/upload/v1649451598/midhaFinResults/Radha_Agarwal_exhq7t.jpg',
@@ -276,7 +276,7 @@ const resultsData =[
         Names: "Ravikanth Kumar",
         Part: "FRM Part 1",
         Year: "Jan-21",
-        LinkedIn: "Not Available"
+        LinkedIn: null,
       },
       {
         image:'https://res.cloudinary.com/floxus-education/image/upload/v1649451588/midhaFinResults/Bhavin_Kamdar_uarywb.jpg',
@@ -325,7 +325,7 @@ const resultsData =[
         Names: "Aditya Gadiya",
         Part: "FRM Part 1",
         Year: "Jan-21",
-        LinkedIn: "Not Available"
+        LinkedIn: null,
       },
       {
         image:'https://res.cloudinary.com/floxus-education/image/upload/v1649451596/midhaFinResults/Paras_Chhabra_hcprwg.jpg',
@@ -339,7 +339,7 @@ const resultsData =[
         Names: "Bany Garikimukkula",
         Part: "FRM Part 1",
         Year: "Jan-21",
-        LinkedIn: "Not Available"
+        LinkedIn: null,
       },
       {
         image:'https://res.cloudinary.com/floxus-education/image/upload/v1649451588/midhaFinResults/Dhruv_Anand_syqoly.jpg',
@@ -353,7 +353,7 @@ const resultsData =[
         Names: "Jaya Chattarjee",
         Part: "FRM Part 1",
         Year: "Jan-21",
-        LinkedIn: "Not Available"
+        LinkedIn: null,
       },
       {
         image:'https://res.cloudinary.com/floxus-education/image/upload/v1649451589/midhaFinResults/Gaurav_Dabas_jhar5e.jpg',
@@ -430,7 +430,7 @@ const resultsData =[
         Names: "Sripriya Iyer",
         Part: "FRM Part 1",
         Year: "Sep-21",
-        LinkedIn: "Not Available"
+        LinkedIn: null,
       },
       {
         image:'https://res.cloudinary.com/floxus-education/image/upload/v1649451601/midhaFinResults/Sudarshan_Gupta_jfsypg.jpg',
@@ -444,7 +444,7 @@ const resultsData =[
         Names: "Karanjit Rai",
         Part: "FRM Part 1",
         Year: "Sep-21",
-        LinkedIn: "Not Available"
+        LinkedIn: null,
       },
       {
         image:'https://res.cloudinary.com/floxus-education/image/upload/v1649451591/midhaFinResults/Karan_Rahat_Singh_Manchanda_aycgug.jpg',
@@ -458,7 +458,7 @@ const resultsData =[
         Names: "Sridhar G Pai",
         Part: "FRM Part 1",
         Year: "Sep-21",
-        LinkedIn: "Not Available"
+        LinkedIn: null,
       },
       {
         image:'https://res.cloudinary.com/floxus-education/image/upload/v1649451595/midhaFinResults/Nitin_Pandey_jjoofv.jpg',
@@ -472,7 +472,7 @@ const resultsData =[
         Names: "Nitin Vaid",
         Part: "FRM Part 1",
         Year: "Sep-21",
-        LinkedIn: "Not Available"
+        LinkedIn: null,
       },
       {
         image:'https://res.cloudinary.com/floxus-education/image/upload/v1649311319/MidhaFinTestimonials/Ramesh_Kumar_Vadlamani_fex9bg.jpg',
@@ -486,7 +486,7 @@ const resultsData =[
         Names: "Tanvi Raghuwanshi",
         Part: "FRM Part 1",
         Year: "Sep-21",
-        LinkedIn: "Not Available"
+        LinkedIn: null,
       },
       {
         image:'https://res.cloudinary.com/floxus-education/image/upload/v1649451601/midhaFinResults/Tara_Sherigar_rfebyg.jpg',
@@ -598,7 +598,7 @@ const resultsData =[
         Names: "Harsh Bafna",
         Part: "FRM Part 1",
         Year: "Nov-21",
-        LinkedIn: "Not Available"
+        LinkedIn: null,
       },
       {
         image:'https://res.cloudinary.com/floxus-education/image/upload/v1649451593/midhaFinResults/Kritika_Narayan_sc4lru.jpg',
@@ -612,7 +612,7 @@ const resultsData =[
         Names: "Avishek Srivastava ",
         Part: "FRM Part 1",
         Year: "Nov-21",
-        LinkedIn: "Not Available"
+        LinkedIn: null,
       },
       {
         image:'https://res.cloudinary.com/floxus-education/image/upload/v1649451596/midhaFinResults/Palak_Jain_em4c2o.jpg',
@@ -668,7 +668,7 @@ const resultsData =[
         Names: "Himanshi Dalwani",
         Part: "FRM Part 1",
         Year: "Nov-21",
-        LinkedIn: "Not Available"
+        LinkedIn: null,
       },
       {
         image:'https://res.cloudinary.com/floxus-education/image/upload/v1649451594/midhaFinResults/Marcel_Ochsner_omlidv.jpg',
@@ -746,9 +746,12 @@ export default function ResultBox() {
                 <Typography variant="subtitle2" gutterBottom sx={{}}>
                     {element.Part}
                 </Typography>
-                <a href={element.LinkedIn}>
+                {element.LinkedIn &&  <a
+                target="_blank" 
+                
+                href={element.LinkedIn}>
                 <SiLinkedin size={20}/>
-                </a>
+                </a>}
             </Box>
             
          </CardContent>
