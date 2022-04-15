@@ -138,9 +138,9 @@ const Toolbar = () => {
             <Link to="/">
               <img src={logo} alt="logo" />
             </Link>
-            <a href="https://www.garp.org/">
+            <Link to="/">
               <img src={GarpLogo} alt="logo" />
-            </a>
+            </Link>
           </LogoWrapper>
           <NavItemWrapper>
             <p

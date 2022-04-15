@@ -136,6 +136,7 @@ const CourseForm = ({ title }) => {
           setNotice('Submited. We will get back to you soon.');
         })
         .catch((error) => {
+          console.log(error);
           setNotice('Some error occured.');
         });
     }
